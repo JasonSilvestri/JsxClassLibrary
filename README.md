@@ -2,7 +2,11 @@
 
 ## Overview
 
-The `JsxClassLibrary` project is custom, reusable, jSilvestri.com 2024 Web API Demo ASP.NET Core Class Library, designed to hold common constants, enums, and helper classes that can be shared across multiple projects. This library promotes code reuse, reduces duplication, and simplifies maintenance.
+The `jSilvestri.com BETA v 2024` mobile and web applications, developed for most smart phones, tablets and desktop computers, was created to showcase a wide range of skills to potential clients and employers, while providing helpful information to fellow developers, demos for interview talks, access to resumes, etc.
+
+The `JsxClassLibrary` in specific, is a FREE, open-source, custom, reusable, jSilvestri.com 2024 Web API Demo Collections ASP.NET Core 8 Class Library, designed to hold common constants, enums, and helper classes that can be shared across multiple projects. This library promotes code reuse, reduces duplication, and simplifies maintenance. 
+
+Many applications in the `Custom jSilvestri.com BETA v 2024 Web API Demo Collection`, such as the `Angular Web API Demo`, `Blazor Web API Demo`, `React Web API Demo`, and `Vue Web API Demo` applications will use this project to reference common features throughout the collective applications.
 
 Copyright © 2024 All Rights Reserved by Jason Silvestri
 
@@ -27,7 +31,9 @@ The project is organized into the following structure:
 ### Prerequisites
 
 - [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
-
+- [Visual Studio 2022 or higher](https://visualstudio.microsoft.com/)
+- [Visit jSilvestri.com BETA v 2024 Demos for More Details](https://jsilvestri.com/home/demo)
+  
 ### Installation
 
 1. **Clone the repository**:
