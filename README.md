@@ -1,4 +1,4 @@
-# JsxClassLibrary
+# JsxClassLibrary: Official JSX Class Library of the jSilvestri.com BETA v 2024 Web API Demo Collection
 
 ## Overview
 
