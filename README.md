@@ -10,8 +10,6 @@ The `JsxClassLibrary` application (i.e., jSilvestri.com BETA v 2024 JSX Class Li
 
 Many applications in the `Custom jSilvestri.com BETA v 2024 Web API Demo Collection`, such as the `Angular Web API Demo`, `Blazor Web API Demo`, `React Web API Demo`, and `Vue Web API Demo` applications will use this project to reference common features throughout the collective applications.
 
-Copyright © 2024 All Rights Reserved by Jason Silvestri
-
 ## Project Structure
 
 The project is organized into the following structure:
@@ -82,3 +80,5 @@ public class ExampleService
         Console.WriteLine($"Key: {JsxConstants.JsxWebApiDemoSettings.JwtKey}");
     }
 }
+
+**Copyright © 2024 All Rights Reserved by Jason Silvestri**
