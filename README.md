@@ -1,4 +1,6 @@
-# JsxClassLibrary: Official JSX Class Library of the jSilvestri.com BETA v 2024 Web API Demo Collection
+# Official JSX Class Library of the jSilvestri.com BETA v 2024 Web API Demo Collection
+
+The `JsxClassLibrary` application (i.e., jSilvestri.com BETA v 2024 JSX Class Library) in specific, is a FREE, open-source, custom, reusable, jSilvestri.com 2024 Web API Demo Collections ASP.NET Core 8 Class Library, designed to hold common constants, enums, and helper classes that can be shared across multiple projects. 
 
 ## Overview
 
