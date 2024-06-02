@@ -80,5 +80,5 @@ public class ExampleService
         Console.WriteLine($"Key: {JsxConstants.JsxWebApiDemoSettings.JwtKey}");
     }
 }
-
-**Copyright © 2024 All Rights Reserved by Jason Silvestri**
+```
+**Copyright © 2024 - All Rights Reserved by Jason Silvestri**
