@@ -45,6 +45,10 @@ Many applications in the Custom jSilvestri.com BETA v2024 Web API Demo Collectio
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Update="README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
