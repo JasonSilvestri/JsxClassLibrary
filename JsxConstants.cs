@@ -1,14 +1,41 @@
 ﻿namespace JsxClassLibrary
 {
 
+
     /// <summary>
-    /// Custom jSilvestri.com 2024 Web API Demo Constants class used to handle all constants, across all projects included in the jSilvestri 2024 Web API Demo 
-    /// Collection projects.
+    /// Custom jSilvestri.com 2024 Web API Demo Constants class for handling all product information across 
+    /// the jSilvestri.com 2024 Web API Demo Collection projects.
+    /// <para>
+    /// ⚠ IMPORTANT ⚠
+    /// </para>
+    /// <para>
+    /// This project is currently in Phase <c>1</c> of <c>4</c>, where deliberate "minimum viable product" 
+    /// decisions are made to demonstrate the project's evolution across phases. It is important to note that 
+    /// storing sensitive data in variables (of most kinds) is not secure and should not be common practice.
+    /// </para>
+    /// <para>
+    /// This project will not follow the common "for simplicity's sake" approach often justified by developers 
+    /// when they provide code as a form of volunteering. Such practices go against the purpose of why I began 
+    /// developing these cross-platform, cross-resource applications. It is concerning that such bad practices 
+    /// are often encouraged across various projects and tech stacks, using both client-side and server-side 
+    /// approaches.
+    /// </para>
+    /// <para>
+    /// Using UserSecret files, app settings, and strongly typing static variables in your applications can 
+    /// expose them to security risks. At a minimum, consider using a cloud secure vault or encryption when 
+    /// re-using this code in your projects.
+    /// </para>
+    /// <para>
+    /// One of the primary reasons for the existence of this class, as well as its elaborate uses, is to avoid 
+    /// enforcing specific database uses, cloud storage, local storage solutions, and other decisions or 
+    /// implementations that increase setup overhead. This project will increasingly use sealed classes, internal 
+    /// declarations, and more secure practices as we progress through the phases.
+    /// </para>
     /// </summary>
     public static class JsxConstants
     {
 
-        // 
+       
         /// <summary>
         /// Custom jSilvestri.com 2024 Web API Demo Constants class used to handle all jSilvestri.com 2024
         /// legal requirements, across all projects included in the jSilvestri 2024 Web API Demo 
@@ -30,6 +57,7 @@
         {
             public const string JsxBrandName = "jSilvestri.com";
             public const string JsxBrandNameAppDemos = "jSilvestri.com 2024 App Demos";
+            public const string JsxBrandNameGitHubs = "jSilvestri.com GitHubs";
             public const string JsxBrandNameEncoded = "jSilvestri.com";
             public const string JsxBrandNameAndJasonX = "jSilvestri.com - featuring JSX 2024 Web Application";
             public const string JsxBrandNameAndJasonXEncoded = "jSilvestri.com - featuring JSX 2024 Web Application";
@@ -220,13 +248,98 @@
 
                 }
             }
+
+            /// <summary>
+            /// Custom jSilvestri.com 2024 Web API Demo Constants class used to handle Product GitHub SEO friendly URLs &amp;
+            /// .git URLs.
+            /// </summary>
+            public static class GitHubUrls
+            {
+
+                /// <summary>
+                /// Custom jSilvestri.com 2024 Web API Demo Constants class used to handle Product GitHub SEO friendly URLs (i.e., https://github.com/JasonSilvestri/JsxClassLibrary).
+                /// </summary>
+                public static class SeoFriendlyUrls
+                {
+                    public const string JsxMainProjectName = "https://github.com/JasonSilvestri/jSilvestri2024WebApiDemoCollection";
+
+                    public const string JsxAngularJsProject = "https://github.com/JasonSilvestri/JsxAngularCoreWebApiDemo";
+
+                    public const string JsxBlazorProject = "https://github.com/JasonSilvestri/JsxBlazorServerCoreWebApiDemo";
+
+                    public const string JsxReactJsProject = "https://github.com/JasonSilvestri/JsxReactCoreWebApiDemo";
+
+                    public const string JsxVueProject = "https://github.com/JasonSilvestri/JsxVueCoreWebApiDemo";
+
+                    public const string JsxMAUIProject = "https://github.com/JasonSilvestri/JsxBlazorMauiCoreDemo";
+
+                    public const string JsxClassLibraryProject = "https://github.com/JasonSilvestri/JsxClassLibrary";
+
+                    public const string JsxWebApiProject = "https://github.com/JasonSilvestri/JsxWebApi";
+
+                    public const string JsxSharedResourcesProject = "https://github.com/JasonSilvestri/JsxSharedResources";
+                }
+
+
+                /// <summary>
+                /// Custom jSilvestri.com 2024 Web API Demo Constants class used to handle Product GitHub SEO friendly URLs (i.e., https://github.com/JasonSilvestri/JsxClassLibrary.git).
+                /// </summary>
+                public static class DotGitUrls
+                {
+                    public const string JsxMainProjectName = "https://github.com/JasonSilvestri/jSilvestri2024WebApiDemoCollection.git";
+
+                    public const string JsxAngularJsProject = "https://github.com/JasonSilvestri/JsxAngularCoreWebApiDemo.git";
+
+                    public const string JsxBlazorProject = "https://github.com/JasonSilvestri/JsxBlazorServerCoreWebApiDemo.git";
+
+                    public const string JsxReactJsProject = "https://github.com/JasonSilvestri/JsxReactCoreWebApiDemo.git";
+
+                    public const string JsxVueProject = "https://github.com/JasonSilvestri/JsxVueCoreWebApiDemo.git";
+
+                    public const string JsxMAUIProject = "https://github.com/JasonSilvestri/JsxBlazorMauiCoreDemo.git";
+
+                    public const string JsxClassLibraryProject = "https://github.com/JasonSilvestri/JsxClassLibrary.git";
+
+                    public const string JsxWebApiProject = "https://github.com/JasonSilvestri/JsxWebApi.git";
+
+                    public const string JsxSharedResourcesProject = "https://github.com/JasonSilvestri/JsxSharedResources.git";
+                }
+
+            }
+
         }
 
 
         /// <summary>
-        /// Custom jSilvestri.com 2024 Web API Demo Constants class used to handle all jSilvestri.com 2024
-        /// Web API Demo Product information, across all projects included in the jSilvestri 2024 Web API Demo 
-        /// Collection projects.
+        /// Custom jSilvestri.com 2024 Web API Demo Constants class for handling all product information across 
+        /// the jSilvestri.com 2024 Web API Demo Collection projects that could be considered sensitive info
+        /// and extra steps taken to secure data as the applications evolve through the phases.
+        /// <para>
+        /// ⚠ IMPORTANT ⚠
+        /// </para>
+        /// <para>
+        /// This project is currently in Phase <c>1</c> of <c>4</c>, where deliberate "minimum viable product" 
+        /// decisions are made to demonstrate the project's evolution across phases. It is important to note that 
+        /// storing sensitive data in variables (of most kinds) is not secure and should not be common practice.
+        /// </para>
+        /// <para>
+        /// This project will not follow the common "for simplicity's sake" approach often justified by developers 
+        /// when they provide code as a form of volunteering. Such practices go against the purpose of why I began 
+        /// developing these cross-platform, cross-resource applications. It is concerning that such bad practices 
+        /// are often encouraged across various projects and tech stacks, using both client-side and server-side 
+        /// approaches.
+        /// </para>
+        /// <para>
+        /// Using UserSecret files, app settings, and strongly typing static variables in your applications can 
+        /// expose them to security risks. At a minimum, consider using a cloud secure vault or encryption when 
+        /// re-using this code in your projects.
+        /// </para>
+        /// <para>
+        /// One of the primary reasons for the existence of this class, as well as its elaborate uses, is to avoid 
+        /// enforcing specific database uses, cloud storage, local storage solutions, and other decisions or 
+        /// implementations that increase setup overhead. This project will increasingly use sealed classes, internal 
+        /// declarations, and more secure practices as we progress through the phases.
+        /// </para>
         /// </summary>
         public static class JsxWebApiDemoSettings
         {

@@ -30,11 +30,13 @@
       Build: BETA v 2024.0.0.001
 
       All Notes:
-      This release (2024.0.0.001) marks the first iteration of the custom Official Jsx Blazor Server Asp.NET Web API Demo Application from the jSilvestri.com BETA v 2024 Web API Demo Collection.
+       This release (2024.0.0.001) marks the first iteration of the Official JSX Class Library from the jSilvestri.com BETA v 2024 Web API Demo Collection.
 
       * Reverted reference chnages across all applications of the jSilvestri.com BETA v 2024 Web API Demo Collection.
 
       * Added new JsxClassLibrary Product and Name constants.
+
+      * Added new JsxClassLibrary Product and Name constants for settings, GitHub information, etc.
 
       ⚠️ IMPORTANT! ⚠️
 
