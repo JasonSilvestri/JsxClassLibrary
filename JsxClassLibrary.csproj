@@ -1,59 +1,61 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-    <Title>Jsx Class Library Project: Phase 1</Title>
-    <Version>2024.0.0.001</Version>
-    <Authors>Jason Silvestri</Authors>
-    <Company>jSilvestri.com</Company>
-    <Product>Jsx Class Library Asp.NET Core Project: From the jSilvestri.com BETA v 2024 Web API Demo Collection</Product>
-    <Description>
-      The jSilvestri.com BETA v 2024 mobile and web applications, developed for most smart phones, tablets and desktop computers, were created to showcase a wide range of skills to potential clients and employers, to support existing clients, while providing helpful information to fellow developers, demos for interview talks, access to resumes, etc.
+<PropertyGroup>
+  <TargetFramework>net8.0</TargetFramework>
+  <ImplicitUsings>enable</ImplicitUsings>
+  <Nullable>enable</Nullable>
+  <Title>Jsx Class Library Project: Phase 1</Title>
+  <Version>2024.0.0.001</Version>
+  <Authors>Jason Silvestri</Authors>
+  <Company>jSilvestri.com</Company>
+  <Product>Jsx Class Library Asp.NET Core Project: From the jSilvestri.com BETA v 2024 Web API Demo Collection</Product>
+  <Description>
+    The jSilvestri.com BETA v 2024 mobile and web applications, developed for most smart phones, tablets and desktop computers, were created to showcase a wide range of skills to potential clients and employers, to support existing clients, while providing helpful information to fellow developers, demos for interview talks, access to resumes, etc.
 
-      JsxClassLibrary is a project containing reusable .NET class libraries that provide common functionalities and utilities used across different web applications within the jSilvestri.com BETA v 2024 Web API Demo Collection. This project aims to promote code reuse and maintainability by centralizing shared logic in a single location.
+    JsxClassLibrary is a project containing reusable .NET class libraries that provide common functionalities and utilities used across different web applications within the jSilvestri.com BETA v 2024 Web API Demo Collection. This project aims to promote code reuse and maintainability by centralizing shared logic in a single location.
 
-      Currently in Phase 1 of 4, this project is one of several projects from the jSilvestri.com BETA v 2024 Web API Demo Collection.
-    </Description>
-    <Copyright>Copyright © 2024 All Rights Reserved by Jason Silvestri</Copyright>
-    <PackageProjectUrl>https://github.com/JasonSilvestri/JsxClassLibrary</PackageProjectUrl>
-    <PackageReadmeFile>README.md</PackageReadmeFile>
-    <RepositoryUrl>https://github.com/JasonSilvestri/JsxClassLibrary.git</RepositoryUrl>
-    <PackageReleaseNotes>
-      06/26/2024 JSILVESTRI.COM BETA V 2024.0.0.001 Release
-      Current Workflow State: Completed
-      Mobile / Web Developer: Jason Silvestri
+    Currently in Phase 1 of 4, this project is one of several projects from the jSilvestri.com BETA v 2024 Web API Demo Collection.
+  </Description>
+  <Copyright>Copyright © 2024 All Rights Reserved by Jason Silvestri</Copyright>
+  <PackageIcon>favicon.ico</PackageIcon>
+  <PackageProjectUrl>https://github.com/JasonSilvestri/JsxClassLibrary</PackageProjectUrl>
+  <PackageReadmeFile>README.md</PackageReadmeFile>
+  <RepositoryUrl>https://github.com/JasonSilvestri/JsxClassLibrary.git</RepositoryUrl>
+  <PackageReleaseNotes>
+    06/27/2024 JSILVESTRI.COM BETA V 2024.0.0.001 Release
+    Current Workflow State: Completed
+    Mobile / Web Developer: Jason Silvestri
 
-      Date Reported:    June 25, 2024
-      Date Completed: June 26, 2024
-      Build: BETA v 2024.0.0.001
+    Date Reported:    June 26, 2024
+    Date Completed: June 27, 2024
+    Build: BETA v 2024.0.0.001
 
-      All Notes:
-       This release (2024.0.0.001) marks the first iteration of the Official JSX Class Library from the jSilvestri.com BETA v 2024 Web API Demo Collection.
+    All Notes:
+    This release (2024.0.0.001) marks the first iteration of the Official JSX Class Library from the jSilvestri.com BETA v 2024 Web API Demo Collection.
 
-      * Reverted reference chnages across all applications of the jSilvestri.com BETA v 2024 Web API Demo Collection.
+    * Reverted reference chnages across all applications of the jSilvestri.com BETA v 2024 Web API Demo Collection.
 
-      * Added new JsxClassLibrary Product and Name constants.
+    * Added new JsxClassLibrary Product and Name constants.
 
-      * Added new JsxClassLibrary Product and Name constants for settings, GitHub information, etc.
+    * Added new JsxClassLibrary Product and Name constants for settings, GitHub information, etc.
 
-      ⚠️ IMPORTANT! ⚠️
+    * Added new JsxClassLibrary support for favicons and tiles for smart phones, tablets, touch screens, etc. via Constants.
 
-      This is the initial Phase 1 of 4 release of the application. It includes only the essential resources by design, and it will have a release lifecycle of already planned phases and features, also by design.
-    </PackageReleaseNotes>
+    * Added new JsxClassLibrary support for relative and absolute URL manufacturing via Constants.
 
-  </PropertyGroup>
+    ⚠️ IMPORTANT! ⚠️
+
+    This is the initial Phase 1 of 4 release of the application. It includes only the essential resources by design, and it will have a release lifecycle of already planned phases and features, also by design.</PackageReleaseNotes>
+
+</PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\..\jSilvestri2024\wwwroot\favicon.png">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.6.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.6.0" />
+    <ProjectReference Include="..\JsxSharedResources\JsxSharedResources.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -347,6 +347,747 @@
             public const string JwtIssuer = "YourIssuer";
             public const string JwtAudience = "YourAudience";
             public const string JwtKey = "YourSuperSecretKey";
+
+
+            /// <summary>
+            /// Custom jSilvestri.com Constants class used to handle all common
+            /// string-based Favorite Icon settings for Pages 
+            /// (for all major devices).
+            /// </summary>
+            public static class FavoriteIcons
+            {
+                /// <summary>
+                /// Custom jSilvestri.com Constants class used to handle all common
+                /// string-based Favorite Icon settings for Apple Icons for Pages.
+                /// </summary>
+                public static class AppleTouch
+                {
+                    /// <summary>
+                    /// Custom jSilvestri.com Constants class used to handle all common
+                    /// string-based Favorite Icon settings for Apple Icons Rel Link
+                    /// Settings.
+                    /// </summary>
+                    public static class Rels
+                    {
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that holds just the 
+                        /// string-based Page Rel Link Setting for the Default Value.
+                        /// </summary>
+                        public const string Default = "apple-touch-icon";
+
+                    }
+
+                    /// <summary>
+                    /// Custom jSilvestri.com Constants class used to handle all common
+                    /// string-based Favorite Icon settings for Apple Icons Sizes Link
+                    /// Settings.
+                    /// </summary>
+                    public static class Sizes
+                    {
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that holds just the 
+                        /// string-based Page Sizes Link Setting for the Default Value.
+                        /// </summary>
+                        public const string Default = "180x180";
+
+                    }
+
+
+                    /// <summary>
+                    /// Custom jSilvestri.com Constants class used to handle all common
+                    /// string-based Favorite Icon settings for Apple Icons Href Link
+                    /// Settings.
+                    /// </summary>
+                    public static class Href
+                    {
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that holds just the 
+                        /// string-based Page Href Link Setting for the Default Value.
+                        /// </summary>
+                        public const string Default = "/apple-touch-icon.png";
+
+                    }
+                }
+
+                /// <summary>
+                /// Custom jSilvestri.com Constants class used to handle all common
+                /// string-based Favorite Icon settings for Icons x 32 for Pages.
+                /// </summary>
+                public static class IconsX32
+                {
+                    /// <summary>
+                    /// Custom jSilvestri.com Constants class used to handle all common
+                    /// string-based Favorite Icon settings for Icons x 32 Rel Link
+                    /// Settings.
+                    /// </summary>
+                    public static class Rels
+                    {
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that holds just the 
+                        /// string-based Page Rel Link Setting for the Default Value.
+                        /// </summary>
+                        public const string Default = "icon";
+
+                    }
+
+                    /// <summary>
+                    /// Custom jSilvestri.com Constants class used to handle all common
+                    /// string-based Favorite Icon settings for Icons x 32 Types Link
+                    /// Settings.
+                    /// </summary>
+                    public static class Types
+                    {
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that holds just the 
+                        /// string-based Page Types Link Setting for the Default Value.
+                        /// </summary>
+                        public const string Default = "image/png";
+
+                    }
+
+                    /// <summary>
+                    /// Custom jSilvestri.com Constants class used to handle all common
+                    /// string-based Favorite Icon settings for Icons x 32 Sizes Link
+                    /// Settings.
+                    /// </summary>
+                    public static class Sizes
+                    {
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that holds just the 
+                        /// string-based Page Sizes Link Setting for the Default Value.
+                        /// </summary>
+                        public const string Default = "32x32";
+
+                    }
+
+
+                    /// <summary>
+                    /// Custom jSilvestri.com Constants class used to handle all common
+                    /// string-based Favorite Icon settings for Icons x 32 Href Link
+                    /// Settings.
+                    /// </summary>
+                    public static class Href
+                    {
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that holds just the 
+                        /// string-based Page Href Link Setting for the Default Value.
+                        /// </summary>
+                        public const string Default = "/favicon-32x32.png";
+
+                    }
+                }
+
+                /// <summary>
+                /// Custom jSilvestri.com Constants class used to handle all common
+                /// string-based Favorite Icon settings for Icons x 16 for Pages.
+                /// </summary>
+                public static class IconsX16
+                {
+                    /// <summary>
+                    /// Custom jSilvestri.com Constants class used to handle all common
+                    /// string-based Favorite Icon settings for Icons x 16 Rel Link
+                    /// Settings.
+                    /// </summary>
+                    public static class Rels
+                    {
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that holds just the 
+                        /// string-based Page Rel Link Setting for the Default Value.
+                        /// </summary>
+                        public const string Default = "icon";
+
+                    }
+
+                    /// <summary>
+                    /// Custom jSilvestri.com Constants class used to handle all common
+                    /// string-based Favorite Icon settings for Icons x 16 Types Link
+                    /// Settings.
+                    /// </summary>
+                    public static class Types
+                    {
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that holds just the 
+                        /// string-based Page Types Link Setting for the Default Value.
+                        /// </summary>
+                        public const string Default = "image/png";
+
+                    }
+
+                    /// <summary>
+                    /// Custom jSilvestri.com Constants class used to handle all common
+                    /// string-based Favorite Icon settings for Icons x 16 Sizes Link
+                    /// Settings.
+                    /// </summary>
+                    public static class Sizes
+                    {
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that holds just the 
+                        /// string-based Page Sizes Link Setting for the Default Value.
+                        /// </summary>
+                        public const string Default = "16x16";
+
+                    }
+
+
+                    /// <summary>
+                    /// Custom jSilvestri.com Constants class used to handle all common
+                    /// string-based Favorite Icon settings for Icons x 16 Href Link
+                    /// Settings.
+                    /// </summary>
+                    public static class Href
+                    {
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that holds just the 
+                        /// string-based Page Href Link Setting for the Default Value.
+                        /// </summary>
+                        public const string Default = "/favicon-16x16.png";
+
+                    }
+                }
+
+                /// <summary>
+                /// Custom jSilvestri.com Constants class used to handle all common
+                /// string-based Favorite Icon settings for Icons x Manifest for Pages.
+                /// </summary>
+                public static class IconsXManifest
+                {
+                    /// <summary>
+                    /// Custom jSilvestri.com Constants class used to handle all common
+                    /// string-based Favorite Icon settings for Icons x Manifest Rel Link
+                    /// Settings.
+                    /// </summary>
+                    public static class Rels
+                    {
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that holds just the 
+                        /// string-based Page Rel Link Setting for the Default Value.
+                        /// </summary>
+                        public const string Default = "manifest";
+
+                    }
+
+                    /// <summary>
+                    /// Custom jSilvestri.com Constants class used to handle all common
+                    /// string-based Favorite Icon settings for Icons x Manifest Href Link
+                    /// Settings.
+                    /// </summary>
+                    public static class Href
+                    {
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that holds just the 
+                        /// string-based Page Href Link Setting for the Default Value.
+                        /// </summary>
+                        public const string Default = "/site.webmanifest";
+
+                    }
+                }
+
+
+                /// <summary>
+                /// Custom jSilvestri.com Constants class used to handle all common
+                /// string-based Favorite Icon settings for Icons x MaskIcon for Pages.
+                /// </summary>
+                public static class IconsXMaskIcon
+                {
+                    /// <summary>
+                    /// Custom jSilvestri.com Constants class used to handle all common
+                    /// string-based Favorite Icon settings for Icons x MaskIcon Rel Link
+                    /// Settings.
+                    /// </summary>
+                    public static class Rels
+                    {
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that holds just the 
+                        /// string-based Page Rel Link Setting for the Default Value.
+                        /// </summary>
+                        public const string Default = "mask-icon";
+
+                    }
+
+                    /// <summary>
+                    /// Custom jSilvestri.com Constants class used to handle all common
+                    /// string-based Favorite Icon settings for Icons x MaskIcon Colors Link
+                    /// Settings.
+                    /// </summary>
+                    public static class Colors
+                    {
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that holds just the 
+                        /// string-based Page Colors Link Setting for the Default Value.
+                        /// </summary>
+                        public const string Default = "#17699f";
+
+                    }
+
+
+                    /// <summary>
+                    /// Custom jSilvestri.com Constants class used to handle all common
+                    /// string-based Favorite Icon settings for Icons x MaskIcon Href Link
+                    /// Settings.
+                    /// </summary>
+                    public static class Href
+                    {
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that holds just the 
+                        /// string-based Page Href Link Setting for the Default Value.
+                        /// </summary>
+                        public const string Default = "/safari-pinned-tab.svg";
+
+                    }
+                }
+
+
+                /// <summary>
+                /// Custom jSilvestri.com Constants class used to handle all common
+                /// string-based Favorite Icon settings for Icons Microsoft Applicaition for Pages.
+                /// </summary>
+                public static class IconsMicrosoftApplicaition
+                {
+                    /// <summary>
+                    /// Custom jSilvestri.com Constants class used to handle all common
+                    /// string-based Favorite Icon settings for Icons Microsoft Applicaition Meta Link
+                    /// Settings.
+                    /// </summary>
+                    public static class Metas
+                    {
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants class used to handle all common
+                        /// string-based Favorite Icon settings for Icons Microsoft 
+                        /// Applicaition Meta Names Settings.
+                        /// </summary>
+                        public static class Names
+                        {
+                            /// <summary>
+                            /// Custom jSilvestri.com Constants Property that holds just the 
+                            /// string-based Page Meta Name Setting for the Default Value.
+                            /// </summary>
+                            public const string Default = "msapplication-TileColor";
+                        }
+
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants class used to handle all common
+                        /// string-based Favorite Icon settings for Icons Microsoft 
+                        /// Applicaition Meta Content Settings.
+                        /// </summary>
+                        public static class Content
+                        {
+                            /// <summary>
+                            /// Custom jSilvestri.com Constants Property that holds just the 
+                            /// string-based Page Meta Name Setting for the Default Value.
+                            /// </summary>
+                            public const string Default = "#17699f";
+                        }
+                    }
+
+                }
+
+
+                /// <summary>
+                /// Custom jSilvestri.com Constants class used to handle all common
+                /// string-based Favorite Icon settings for Icons  Theme Color Applicaition for Pages.
+                /// </summary>
+                public static class IconsThemeColors
+                {
+                    /// <summary>
+                    /// Custom jSilvestri.com Constants class used to handle all common
+                    /// string-based Favorite Icon settings for Icons  Theme Color Applicaition Meta Link
+                    /// Settings.
+                    /// </summary>
+                    public static class Metas
+                    {
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants class used to handle all common
+                        /// string-based Favorite Icon settings for Icons  Theme Color 
+                        /// Applicaition Meta Names Settings.
+                        /// </summary>
+                        public static class Names
+                        {
+                            /// <summary>
+                            /// Custom jSilvestri.com Constants Property that holds just the 
+                            /// string-based Page Meta Name Setting for the Default Value.
+                            /// </summary>
+                            public const string Default = "theme-color";
+                        }
+
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants class used to handle all common
+                        /// string-based Favorite Icon settings for Icons  Theme Color 
+                        /// Applicaition Meta Content Settings.
+                        /// </summary>
+                        public static class Content
+                        {
+                            /// <summary>
+                            /// Custom jSilvestri.com Constants Property that holds just the 
+                            /// string-based Page Meta Name Setting for the Default Value.
+                            /// </summary>
+                            public const string Default = "#17699f";
+                        }
+                    }
+
+                }
+
+
+                /// <summary>
+                /// Custom jSilvestri.com Constants class used to handle all common
+                /// string-based Favorite Icon settings for Icons Primary FavIcon for Pages.
+                /// </summary>
+                public static class IconsPrimaryFavIcon
+                {
+                    /// <summary>
+                    /// Custom jSilvestri.com Constants class used to handle all common
+                    /// string-based Favorite Icon settings for Icons Primary FavIcon Rel Link
+                    /// Settings.
+                    /// </summary>
+                    public static class Rels
+                    {
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that holds just the 
+                        /// string-based Page Rel Link Setting for the Default Value.
+                        /// </summary>
+                        public const string Default = "icon";
+
+                    }
+
+
+                    /// <summary>
+                    /// Custom jSilvestri.com Constants class used to handle all common
+                    /// string-based Favorite Icon settings for Primary FavIcon Types Link
+                    /// Settings.
+                    /// </summary>
+                    public static class Types
+                    {
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that holds just the 
+                        /// string-based Page Types Link Setting for the Default Value.
+                        /// </summary>
+                        public const string Default = "image/x-icon";
+
+                    }
+
+                    /// <summary>
+                    /// Custom jSilvestri.com Constants class used to handle all common
+                    /// string-based Favorite Icon settings for Icons Primary FavIcon Href Link
+                    /// Settings.
+                    /// </summary>
+                    public static class Href
+                    {
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that holds just the 
+                        /// string-based Page Href Link Setting for the Default Value.
+                        /// </summary>
+                        public const string Default = "favicon.ico";
+
+                    }
+                }
+
+            }
+
+            /// <summary>
+            /// Custom jSilvestri.com Constants class used to handle all common
+            /// string-based Favorite Icon settings for META Tags Format Detection Applicaition for Pages.
+            /// </summary>
+            public static class FormatDetectionApplicaition
+            {
+                /// <summary>
+                /// Custom jSilvestri.com Constants class used to handle all common
+                /// string-based Favorite Icon settings for META Tags Format Detection Applicaition Meta Link
+                /// Settings.
+                /// </summary>
+                public static class Metas
+                {
+                    /// <summary>
+                    /// Custom jSilvestri.com Constants class used to handle all common
+                    /// string-based Favorite Icon settings for META Tags Format Detection 
+                    /// Applicaition Meta Names Settings.
+                    /// </summary>
+                    public static class Names
+                    {
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that holds just the 
+                        /// string-based Page Meta Name Setting for the Default Value.
+                        /// </summary>
+                        public const string Default = "format-detection";
+                    }
+
+
+                    /// <summary>
+                    /// Custom jSilvestri.com Constants class used to handle all common
+                    /// string-based Favorite Icon settings for META Tags Format Detection 
+                    /// Applicaition Meta Content Settings.
+                    /// </summary>
+                    public static class Content
+                    {
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that holds just the 
+                        /// string-based Page Meta Name Setting for the Default Value.
+                        /// </summary>
+                        public const string Default = "telephone=no";
+                    }
+                }
+
+            }
+
+            /// <summary>
+            /// Custom jSilvestri.com Constants class used to handle all common
+            /// string-based Favorite Icon settings for META Tags View Port for Pages.
+            /// </summary>
+            public static class ViewPort
+            {
+                /// <summary>
+                /// Custom jSilvestri.com Constants class used to handle all common
+                /// string-based Favorite Icon settings for META Tags View Port Meta Link
+                /// Settings.
+                /// </summary>
+                public static class Metas
+                {
+                    /// <summary>
+                    /// Custom jSilvestri.com Constants class used to handle all common
+                    /// string-based Favorite Icon settings for META Tags Format Detection 
+                    /// Applicaition Meta Names Settings.
+                    /// </summary>
+                    public static class Names
+                    {
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that holds just the 
+                        /// string-based Page Meta Name Setting for the Default Value.
+                        /// </summary>
+                        public const string Default = "viewport";
+                    }
+
+
+                    /// <summary>
+                    /// Custom jSilvestri.com Constants class used to handle all common
+                    /// string-based Favorite Icon settings for META Tags Format Detection 
+                    /// Applicaition Meta Content Settings.
+                    /// </summary>
+                    public static class Content
+                    {
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that holds just the 
+                        /// string-based Page Meta Name Setting for the Default Value.
+                        /// </summary>
+                        public const string Default = "width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0";
+                    }
+                }
+
+            }
+
+
+            /// <summary>
+            /// Custom jSilvestri.com Constants class used to handle all common
+            /// string-based Favorite Icon settings for META Tags Charset for Pages.
+            /// </summary>
+            public static class Charset
+            {
+                /// <summary>
+                /// Custom jSilvestri.com Constants class used to handle all common
+                /// string-based Favorite Icon settings for META Tags Charset Meta Link
+                /// Settings.
+                /// </summary>
+                public static class Metas
+                {
+                    /// <summary>
+                    /// Custom jSilvestri.com Constants class used to handle all common
+                    /// string-based Charset.
+                    /// </summary>
+                    public static class Charset
+                    {
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that holds just the 
+                        /// string-based Page Meta Charset Default Value.
+                        /// </summary>
+                        public const string Default = "utf-8";
+                    }
+
+                }
+
+            }
+
+
+            /// <summary>
+            /// Custom jSilvestri.com Constants class used to handle common string-based 
+            /// Protocol schemas, such as http, https, etc.
+            /// </summary>      
+            public static class Protocol
+            {
+
+                /// <summary>
+                /// Custom jSilvestri.com Constant used to handle the string-based
+                /// protocol for SSL (i.e. https://). 
+                /// </summary>
+                public const string Https = "https://";
+
+                /// <summary>
+                /// Custom jSilvestri.com Constant used to handle the string-based
+                /// protocol for HTTP (i.e. http://). 
+                /// </summary>
+                public const string Http = "http://";
+
+                /// <summary>
+                /// Custom jSilvestri.com Constant used to handle the string-based
+                /// protocol for SSL, with no colons or slashes (i.e. https). 
+                /// </summary>
+                public const string HttpsNoColonsSlashes = "https";
+
+                /// <summary>
+                /// Custom jSilvestri.com Constant used to handle the string-based
+                /// protocol for HTTP, with no colons or slashes (i.e. http). 
+                /// </summary>
+                public const string HttpNoColonsSlashes = "http";
+
+            }
+
+            /// <summary>
+            /// Custom jSilvestri.com Constants class used to handle common string-based 
+            /// Root object of the application, like the common tilde location to establish Absolute URLs, 
+            /// in addition to the DotDot Relative URLs, the DEV or UAT servers, and/or any other root 
+            /// object we may want to use.
+            /// </summary>      
+            public static class Root
+            {
+
+                /// <summary>
+                /// Custom jSilvestri.com Constants class used to handle all common
+                /// string-based Root Slug we use to construct the "Root" part of a 
+                /// URL or URI.
+                /// </summary>
+                public static class Slugs
+                {
+                    /// <summary>
+                    /// Custom jSilvestri.com Constant used to handle the "~" Root
+                    /// Slug, used to construct the "Root" part of a URL or URI. This Root
+                    /// Slug should be the default to use with Absolute URL Helpers we have
+                    /// today. The other Root Slug choices are to use in very specific 
+                    /// server operations and/or localized testing cases. 
+                    /// </summary>
+                    public const string Tilde = "~/";
+
+                    /// <summary>
+                    /// Custom jSilvestri.com Constant used to handle the "./" Root
+                    /// Slug, used to construct the "Root" part of a URL or URI. This Root
+                    /// Slug should be the default to use with Absolute URL Helpers we have
+                    /// today. The other Root Slug choices are to use in very specific 
+                    /// server operations and/or localized testing cases. 
+                    /// <para>
+                    /// ATTN JasonXWebApp Developer ::
+                    /// </para>
+                    /// Remember, this is a relative path, and it assumes you are already 
+                    /// in the root directory. For deeper drill downs, try the other relative
+                    /// path choices.
+                    /// </summary>
+                    public const string DotForwardSlash = "./";
+
+                    /// <summary>
+                    /// Custom jSilvestri.com Constant used to handle the Pipeline "Development Server" Root
+                    /// Slug, used to construct the "Root" part of a URL or URI.
+                    /// </summary>
+                    public const string DevelopmentServerPipeline = "www.jsilvestri.com";
+
+                    /// <summary>
+                    /// Custom jSilvestri.com Constant used to handle the None Pipeline "Staging Server" Root
+                    /// Slug used to construct the "Root" part of a URL or URI. This specific version
+                    /// uses SQLVM.
+                    /// </summary>
+                    public const string StageServerNoPipeline = "www.jsilvestri.com";
+
+                    /// <summary>
+                    /// Custom jSilvestri.com Constant used to handle the Pipeline "UAT Server" Root
+                    /// Slug, used to construct the "Root" part of a URL or URI.
+                    /// </summary>
+                    public const string UATServerPipeline = "www.jsilvestri.com";
+
+                    /// <summary>
+                    /// Custom jSilvestri.com Constant used to handle the Pipeline "Production Server" Root
+                    /// Slug, used to construct the "Root" part of a URL or URI.
+                    /// </summary>
+                    public const string ProductionServerPipeline = "jsilvestri.com";
+
+                    /// <summary>
+                    /// Custom jSilvestri.com Constant used to handle the Pipeline "Production Server" Root
+                    /// Slug, used to construct the "Root" part of a URL or URI.
+                    /// </summary>
+                    public const string ProductionServerPipelineWWW = "www.jsilvestri.com";
+
+                    /// <summary>
+                    /// Custom jSilvestri.com Constant used to handle the DefaultRoot
+                    /// Slug, used to construct the "Root" part of a URL or URI. This Root
+                    /// Slug should be the default to use with Absolute URL Helpers we have
+                    /// today. The other Root Slug choices are to use in very specific 
+                    /// server operations and/or localized testing cases. For now, it will
+                    /// just be targeting the Tilde constant.
+                    /// </summary>
+                    public const string DefaultJsxRoot = Tilde;
+                }
+
+            }
+
+
+            /// <summary>
+            /// Custom jSilvestri.com Constants class used to handle common string-based 
+            /// Port object of the application, like the common  location to establish 
+            /// Absolute URLs, using localhost (i.e., localhost:44329). Please keep in mind
+            /// that these ports are just the potential number integer to use (or not use).
+            /// </summary>      
+            public static class Ports
+            {
+
+                /// <summary>
+                /// Custom jSilvestri.com Constants class used to handle all common
+                /// string-based Root Slug we use to construct the "Port" part of a 
+                /// URL or URI (i.e., 80, 443 - which if either, we should make this 
+                /// value 0).
+                /// </summary>
+                public static class Slugs
+                {
+                    /// <summary>
+                    /// Custom jSilvestri.com Constant used to handle the Port "80" value
+                    /// Slug, used to construct the "Port" part of a URL or URI. This Port
+                    /// Slug should be the default to use with Absolute URL Helpers we have
+                    /// today.
+                    /// <para>
+                    /// ⚠ IMPORTANT ⚠
+                    /// </para>
+                    /// We DO NOT want to create a port value for URLs or URIs if the port value
+                    /// is "80", because that is reserved. This value is more to check against in
+                    /// -coming ports if anything.
+                    /// </summary>
+                    public const int port80 = 80;
+
+                    /// <summary>
+                    /// Custom jSilvestri.com Constant used to handle the Port "443" value
+                    /// Slug, used to construct the "Port" part of a URL or URI. This Port
+                    /// Slug should be the default to use with Absolute URL Helpers we have
+                    /// today.
+                    /// <para>
+                    /// ⚠ IMPORTANT ⚠
+                    /// </para>
+                    /// We DO NOT want to create a port value for URLs or URIs if the port value
+                    /// is "443", because that is reserved. This value is more to check against in
+                    /// -coming ports if anything.
+                    /// </summary>
+                    public const int port443 = 443;
+
+
+                    /// <summary>
+                    /// Custom jSilvestri.com Constant used to handle the Port "443" value
+                    /// Slug, used to construct the "Port" part of a URL or URI. This Port
+                    /// Slug should be the default to use with Absolute URL Helpers we have
+                    /// today.
+                    /// <para>
+                    /// ⚠ IMPORTANT ⚠
+                    /// </para>
+                    /// We DO NOT want to create a port value for URLs or URIs if the port value
+                    /// is "443", because that is reserved. This value is more to check against in
+                    /// -coming ports if anything.
+                    /// </summary>
+                    public const string portNone = "";
+
+                }
+
+            }
+
         }
 
     }
