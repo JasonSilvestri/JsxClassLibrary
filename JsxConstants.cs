@@ -1251,7 +1251,7 @@ namespace JsxClassLibrary
                 /// serializable using the legacy 2.0 standard for backwards 
                 /// compatability or go for the new 3.0 standard.
                 /// </summary>
-                public const bool IsSwagSerializeAsV2 = false;
+                public const bool IsSwagSerializeAsV2 = true;
 
 
                 /// <summary>
