@@ -28,13 +28,13 @@ namespace JsxClassLibrary
                 //This is the full manufactured Absolute URL. 
 
                 //This is the full manufactured Absolute URL. 
-                var rootUrlSchemaHttpOrHttps = jsxHttpContext.Request.Scheme ?? JsxConstants.JsxWebApiDemoSettings.Protocol.HttpsNoColonsSlashes;
-                var rootUrlHostLocalHostOrJsilvestri = jsxHttpContext.Request.Host.Host ?? JsxConstants.JsxWebApiDemoSettings.Root.Slugs.ProductionServerPipeline;
-                var rootUrlPort = (jsxHttpContext.Request.Host.Port != JsxConstants.JsxWebApiDemoSettings.Ports.Slugs.port80 && jsxHttpContext.Request.Host.Port != JsxConstants.JsxWebApiDemoSettings.Ports.Slugs.port443) ? $":{jsxHttpContext.Request.Host.Port}" : "";
+                var rootUrlSchemaHttpOrHttps = jsxHttpContext.Request.Scheme ?? JsxConstants.JsxAppDemoSettings.Protocol.HttpsNoColonsSlashes;
+                var rootUrlHostLocalHostOrJsilvestri = jsxHttpContext.Request.Host.Host ?? JsxConstants.JsxAppDemoSettings.Root.Slugs.ProductionServerPipeline;
+                var rootUrlPort = (jsxHttpContext.Request.Host.Port != JsxConstants.JsxAppDemoSettings.Ports.Slugs.port80 && jsxHttpContext.Request.Host.Port != JsxConstants.JsxAppDemoSettings.Ports.Slugs.port443) ? $":{jsxHttpContext.Request.Host.Port}" : "";
                 var finalHost = "";
 
                 // If the Host is the same as Prouction, we don't even want to entertain a Port
-                if (string.Equals(rootUrlHostLocalHostOrJsilvestri, JsxConstants.JsxWebApiDemoSettings.Root.Slugs.ProductionServerPipeline, StringComparison.OrdinalIgnoreCase) || string.Equals(rootUrlHostLocalHostOrJsilvestri, JsxConstants.JsxWebApiDemoSettings.Root.Slugs.ProductionServerPipelineWWW, StringComparison.OrdinalIgnoreCase))
+                if (string.Equals(rootUrlHostLocalHostOrJsilvestri, JsxConstants.JsxAppDemoSettings.Root.Slugs.ProductionServerPipeline, StringComparison.OrdinalIgnoreCase) || string.Equals(rootUrlHostLocalHostOrJsilvestri, JsxConstants.JsxAppDemoSettings.Root.Slugs.ProductionServerPipelineWWW, StringComparison.OrdinalIgnoreCase))
                 {
                     //if (rootUrlHostLocalHostOrJsilvestri == JsxConstants.JsxWebApiDemoSettings.Root.Slugs.ProductionServerPipeline) { 
                     finalHost = $"{rootUrlHostLocalHostOrJsilvestri}";
@@ -52,7 +52,7 @@ namespace JsxClassLibrary
 
 
                 // Update Full Absolute URL View Data Object
-                string finalUrlReturn = $"{JsxConstants.JsxWebApiDemoSettings.Protocol.HttpsNoColonsSlashes}://{JsxConstants.JsxWebApiDemoSettings.Root.Slugs.ProductionServerPipeline}";
+                string finalUrlReturn = $"{JsxConstants.JsxAppDemoSettings.Protocol.HttpsNoColonsSlashes}://{JsxConstants.JsxAppDemoSettings.Root.Slugs.ProductionServerPipeline}";
                 return finalUrlReturn;
             }
         }
@@ -70,13 +70,13 @@ namespace JsxClassLibrary
                 //This is the full manufactured Relative URL. 
                 //var localRelativeRootUrl = $"{jsxHttpContext.Request.Scheme}://{jsxHttpContext.Request.Host.Host}{(jsxHttpContext.Request.Host.Port != 80 && jsxHttpContext.Request.Host.Port != 443 ? $":{jsxHttpContext.Request.Host.Port.ToString()}" : "")}" ?? $"{JsxConstants.JsxWebApiDemoSettings.Root.Slugs.DotForwardSlash}";
 
-                var rootUrlSchemaHttpOrHttps = jsxHttpContext.Request.Scheme ?? JsxConstants.JsxWebApiDemoSettings.Protocol.HttpsNoColonsSlashes;
-                var rootUrlHostLocalHostOrJsilvestri = jsxHttpContext.Request.Host.Host ?? JsxConstants.JsxWebApiDemoSettings.Root.Slugs.ProductionServerPipeline;
-                var rootUrlPort = (jsxHttpContext.Request.Host.Port != JsxConstants.JsxWebApiDemoSettings.Ports.Slugs.port80 && jsxHttpContext.Request.Host.Port != JsxConstants.JsxWebApiDemoSettings.Ports.Slugs.port443) ? $":{jsxHttpContext.Request.Host.Port}" : "";
+                var rootUrlSchemaHttpOrHttps = jsxHttpContext.Request.Scheme ?? JsxConstants.JsxAppDemoSettings.Protocol.HttpsNoColonsSlashes;
+                var rootUrlHostLocalHostOrJsilvestri = jsxHttpContext.Request.Host.Host ?? JsxConstants.JsxAppDemoSettings.Root.Slugs.ProductionServerPipeline;
+                var rootUrlPort = (jsxHttpContext.Request.Host.Port != JsxConstants.JsxAppDemoSettings.Ports.Slugs.port80 && jsxHttpContext.Request.Host.Port != JsxConstants.JsxAppDemoSettings.Ports.Slugs.port443) ? $":{jsxHttpContext.Request.Host.Port}" : "";
                 var finalHost = "";
 
                 // If the Host is the same as Prod, we don't even want to entertain a Port
-                if (string.Equals(rootUrlHostLocalHostOrJsilvestri, JsxConstants.JsxWebApiDemoSettings.Root.Slugs.ProductionServerPipeline, StringComparison.OrdinalIgnoreCase) || string.Equals(rootUrlHostLocalHostOrJsilvestri, JsxConstants.JsxWebApiDemoSettings.Root.Slugs.ProductionServerPipelineWWW, StringComparison.OrdinalIgnoreCase))
+                if (string.Equals(rootUrlHostLocalHostOrJsilvestri, JsxConstants.JsxAppDemoSettings.Root.Slugs.ProductionServerPipeline, StringComparison.OrdinalIgnoreCase) || string.Equals(rootUrlHostLocalHostOrJsilvestri, JsxConstants.JsxAppDemoSettings.Root.Slugs.ProductionServerPipelineWWW, StringComparison.OrdinalIgnoreCase))
                 {
 
                     finalHost = $"{rootUrlHostLocalHostOrJsilvestri}";
@@ -93,7 +93,7 @@ namespace JsxClassLibrary
             {
 
                 // Update Full Relative URL View Data Object
-                string finalUrlReturn = $"{JsxConstants.JsxWebApiDemoSettings.Protocol.HttpsNoColonsSlashes}://{JsxConstants.JsxWebApiDemoSettings.Root.Slugs.ProductionServerPipeline}";
+                string finalUrlReturn = $"{JsxConstants.JsxAppDemoSettings.Protocol.HttpsNoColonsSlashes}://{JsxConstants.JsxAppDemoSettings.Root.Slugs.ProductionServerPipeline}";
                 return finalUrlReturn;
 
             }

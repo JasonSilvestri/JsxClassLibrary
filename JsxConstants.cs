@@ -1,4 +1,6 @@
-﻿namespace JsxClassLibrary
+﻿using System.ComponentModel;
+
+namespace JsxClassLibrary
 {
 
 
@@ -34,7 +36,6 @@
     /// </summary>
     public static class JsxConstants
     {
-
        
         /// <summary>
         /// Custom jSilvestri.com 2024 Web API Demo Constants class used to handle all jSilvestri.com 2024
@@ -47,7 +48,6 @@
             public const string JsxCopyRight = "Copyright © 2024 All Rights Reserved by Jason Silvestri";
         }
 
-
         /// <summary>
         /// Custom jSilvestri.com 2024 Web API Demo Constants class used to handle all jSilvestri.com 2024
         /// brand requirements, across all projects included in the jSilvestri 2024 Web API Demo 
@@ -59,8 +59,8 @@
             public const string JsxBrandNameAppDemos = "jSilvestri.com 2024 App Demos";
             public const string JsxBrandNameGitHubs = "jSilvestri.com GitHubs";
             public const string JsxBrandNameEncoded = "jSilvestri.com";
-            public const string JsxBrandNameAndJasonX = "jSilvestri.com - featuring JSX 2024 Web Application";
-            public const string JsxBrandNameAndJasonXEncoded = "jSilvestri.com - featuring JSX 2024 Web Application";
+            public const string JsxBrandNameAndJasonX = "jSilvestri.com - featuring jSX 2024 Web Application";
+            public const string JsxBrandNameAndJasonXEncoded = "jSilvestri.com - featuring jSX 2024 Web Application";
         }
 
         /// <summary>
@@ -68,247 +68,285 @@
         /// Web API Demo Product information, across all projects included in the jSilvestri 2024 Web API Demo 
         /// Collection projects.
         /// </summary>
-        public static class JsxWebApiDemoProducts
+        public static class JsxAppProjects
         {
 
-            /// <summary>
-            /// Custom jSilvestri.com 2024 Web API Demo Constants class used to handle all jSilvestri.com 2024
-            /// Web API Demo Product names, across all projects included in the jSilvestri 2024 Web API Demo 
-            /// Collection projects.
-            /// </summary>
-            public static class ProductNames
-            {
-
                 /// <summary>
-                /// Custom jSilvestri.com 2024 Web API Demo Constants class used to handle all jSilvestri.com 2024
-                /// Web API Demo Default Product names.
+                /// Custom jSilvestri.com jSX Demo App Constants class used to handle 
+                /// all Web API Demo Product versions, across all projects,
+                /// included the jSilvestri 2024 jSX Demo Collection projects.
+                /// <para>
+                /// ⚠ IMPORTANT ⚠
+                /// </para>
+                /// <para>
+                /// These static constants will eventually be replaced with the versions produced
+                /// by each application dynamically via version control. 
+                /// </para>
                 /// </summary>
-                public static class Default
+                public static class ProductVersions
                 {
-                    public const string JsxMainProjectName = "jSilvestri.com 2024 Web API Demo Collection";
 
-                    public const string JsxAngularJsProject = "JSX Angular Asp.NET Core Web API Demo Project";
+                    /// <summary>
+                    /// Custom jSilvestri.com 2024 Web API Demo Constants property used to 
+                    /// handle all Web API Demo Default Product versions.
+                    /// </summary>
+                    public const string Default = "v2024.0.1";
 
-                    public const string JsxBlazorProject = "JSX Blazor Asp.NET Core Web API Demo Project";
+                    public const string JsxMainProjectName = Default;
 
-                    public const string JsxReactJsProject = "JSX React Asp.NET Core Web API Demo Project";
+                    public const string JsxAngularJsProject = Default;
 
-                    public const string JsxVueProject = "JSX Vue Asp.NET Core Web API Demo Project";
+                    public const string JsxBlazorProject = Default;
 
-                    public const string JsxMAUIProject = "JSX .NET MAUI Demo Project";
+                    public const string JsxReactJsProject = Default;
 
-                    public const string JsxClassLibraryProject = "JSX Asp.NET Core Class Library Project";
+                    public const string JsxVueProject = Default;
 
-                    public const string JsxWebApiProject = "JSX Asp.NET Core WebAPI Project";
+                    public const string JsxMAUIProject = Default;
 
-                    public const string JsxSharedResourcesProject = "JSX Asp.NET Shared Resources Project";
+                    public const string JsxClassLibraryProject = Default;
+
+                    public const string JsxWebApiProject = Default;
+
+                    public const string JsxSharedResourcesProject = Default;
                 }
 
-
                 /// <summary>
                 /// Custom jSilvestri.com 2024 Web API Demo Constants class used to handle all jSilvestri.com 2024
-                /// Web API Demo Short Product names.
-                /// </summary>
-                public static class Shorts
-                {
-                    public const string JsxMainProjectName = "jSilvestri.com 2024 Demo Collection";
-
-                    public const string JsxAngularJsProject = "JSX Angular Web API Demo";
-
-                    public const string JsxBlazorProject = "JSX Blazor Web API Demo";
-
-                    public const string JsxReactJsProject = "JSX React Web API Demo";
-
-                    public const string JsxVueProject = "JSX Vue Web API Demo";
-
-                    public const string JsxMAUIProject = "JSX .NET MAUI Demo";
-
-                    public const string JsxClassLibraryProject = "JSX Class Library";
-
-                    public const string JsxWebApiProject = "JSX WebAPI";
-
-                    public const string JsxSharedResourcesProject = "JSX Shared Resources";
-                }
-            }
-
-
-            /// <summary>
-            /// Custom jSilvestri.com 2024 Web API Demo Constants class used to handle all jSilvestri.com 2024
-            /// Web API Demo Product descriptions, across all projects included in the jSilvestri 2024 Web API Demo 
-            /// Collection projects.
-            /// </summary>
-            public static class Descriptions
-            {
-
-                /// <summary>
-                /// Custom jSilvestri.com 2024 Web API Demo Constants class used to handle all jSilvestri.com 2024
-                /// Web API Demo Product default descriptions, across all projects included in the jSilvestri 2024 Web API Demo 
+                /// Web API Demo Product names, across all projects included in the jSilvestri 2024 Web API Demo 
                 /// Collection projects.
                 /// </summary>
-                public static class Default
+                public static class Names
                 {
-                    /// <summary>
-                    /// Custom jSilvestri.com 2024 Web API Demo Constant used for product description. 
-                    /// </summary>
-                    public const string JsxMainProject = "The jSilvestri.com 2024 Web API Demo Collection is a comprehensive suite of demonstration projects designed to showcase the integration and usage of various front-end frameworks (Angular, React, Vue, Blazor) with ASP.NET Core 8 Web API. This collection serves as a learning resource and reference for developers looking to understand and implement modern web application architectures using these technologies.";
 
                     /// <summary>
-                    /// Custom jSilvestri.com 2024 Web API Demo Constant used for product description. 
+                    /// Custom jSilvestri.com 2024 Web API Demo Constants class used to handle all jSilvestri.com 2024
+                    /// Web API Demo Default Product names.
                     /// </summary>
-                    public const string JsxClassLibrary = "The JSX Class Library Project is a project containing reusable .NET class libraries that provide common functionalities and utilities used across different web applications within the jSilvestri.com BETA v 2024 Web API Demo Collection. This project aims to promote code reuse and maintainability by centralizing shared logic in a single location.";
+                    public static class Default
+                    {
+                        public const string JsxMainProjectName = "jSilvestri.com 2024 jSX Collection Project";
+
+                        public const string JsxAngularJsProject = "jSX Angular Asp.NET Core Web API Demo Project";
+
+                        public const string JsxBlazorProject = "jSX Blazor Asp.NET Core Web API Demo Project";
+
+                        public const string JsxReactJsProject = "jSX React Asp.NET Core Web API Demo Project";
+
+                        public const string JsxVueProject = "jSX Vue Asp.NET Core Web API Demo Project";
+
+                        public const string JsxMAUIProject = "jSX .NET MAUI Demo Project";
+
+                        public const string JsxClassLibraryProject = "jSX Asp.NET Core Class Library Project";
+
+                        public const string JsxWebApiProject = "jSX Asp.NET Core WebAPI Project";
+
+                        public const string JsxSharedResourcesProject = "jSX Asp.NET Shared Resources Project";
+                    }
+
 
                     /// <summary>
-                    /// Custom jSilvestri.com 2024 Web API Demo Constant used for product description. 
+                    /// Custom jSilvestri.com 2024 Web API Demo Constants class used to handle all jSilvestri.com 2024
+                    /// Web API Demo Short Product names.
                     /// </summary>
-                    public const string JsxWebApiProject = "The JSX Web API Project is a custom project that implements an ASP.NET Core 8 Web API, serving as the back-end for the various web applications in the jSilvestri.com BETA v 2024 Web API Demo Collection. It provides RESTful API endpoints for data retrieval and manipulation, showcasing best practices in API development and integration with front-end frameworks.";
+                    public static class Shorts
+                    {
+                        public const string JsxMainProjectName = "jSX 2024 Demo Collection";
 
-                    /// <summary>
-                    /// Custom jSilvestri.com 2024 Web API Demo Constant used for product description. 
-                    /// </summary>
-                    public const string JsxSharedResources = "The JSX Shared Resources Project is a project that contains shared resources such as images, styles, and scripts used across multiple web applications in the jSilvestri.com BETA v 2024 Web API Demo Collection. This project aims to maintain consistency and avoid duplication of resources across different projects.";
+                        public const string JsxAngularJsProject = "jSX Angular Web API Demo";
 
-                    /// <summary>
-                    /// Custom jSilvestri.com 2024 Web API Demo Constant used for product description. 
-                    /// </summary>
-                    public const string JsxAngularJsProject = "The JSX Angular Core Web API Demo Project is a demonstration project showcasing how to build a web application using Angular and ASP.NET Core 8 Web API. It highlights the integration of Angular for the client-side with ASP.NET Core for the server-side, providing a comprehensive example of a modern web application stack.";
+                        public const string JsxBlazorProject = "jSX Blazor Web API Demo";
 
-                    /// <summary>
-                    /// Custom jSilvestri.com 2024 Web API Demo Constant used for product description. 
-                    /// </summary>
-                    public const string JsxBlazorProject = "The JSX Blazor Server Core Web API Demo Project is a demonstration project that illustrates how to construct a web application using Blazor Server and ASP.NET Core 8 Web API. This project highlights the use of Blazor for building interactive web UIs with C# and ASP.NET Core for providing powerful server-side capabilities.";
+                        public const string JsxReactJsProject = "jSX React Web API Demo";
 
-                    /// <summary>
-                    /// Custom jSilvestri.com 2024 Web API Demo Constant used for product description. 
-                    /// </summary>
-                    public const string JsxReactJsProject = "The JSX React Core Web API Demo Project is a demonstration project designed to illustrate how to create a web application using React and ASP.NET Core 8 Web API. This project exemplifies the combination of React for building dynamic user interfaces with ASP.NET Core for developing robust server-side APIs.";
+                        public const string JsxVueProject = "jSX Vue Web API Demo";
 
-                    /// <summary>
-                    /// Custom jSilvestri.com 2024 Web API Demo Constant used for product description. 
-                    /// </summary>
-                    public const string JsxVueProject= "The JSX Vue Core Web API Demo Project is a demonstration project intended to demonstrate how to develop a web application using Vue and ASP.NET Core 8 Web API. It showcases the seamless integration of Vue for the front-end and ASP.NET Core for the back-end, offering a clear example of a full-stack web development approach.";
+                        public const string JsxMAUIProject = "jSX .NET MAUI Demo";
 
-                    /// <summary>
-                    /// Custom jSilvestri.com 2024 Web API Demo Constant used for product description. 
-                    /// </summary>
-                    public const string JsxMAUIProject = "The JSX .NET MAUI Core Demo Project is one coming soon that you do not want to miss. Stay tuned!";
+                        public const string JsxClassLibraryProject = "jSX Class Library";
 
+                        public const string JsxWebApiProject = "jSX WebAPI";
+
+                        public const string JsxSharedResourcesProject = "jSX Shared Resources";
+                    }
                 }
 
                 /// <summary>
                 /// Custom jSilvestri.com 2024 Web API Demo Constants class used to handle all jSilvestri.com 2024
-                /// Web API Demo Product Short descriptions, across all projects included in the jSilvestri 2024 Web API Demo 
+                /// Web API Demo Product descriptions, across all projects included in the jSilvestri 2024 Web API Demo 
                 /// Collection projects.
                 /// </summary>
-                public static class Short
+                public static class Descriptions
                 {
-                    /// <summary>
-                    /// Custom jSilvestri.com 2024 Web API Demo Constant used for product description. 
-                    /// </summary>
-                    public const string JsxMainProject = "The jSilvestri.com 2024 Web API Demo Collection is a suite of demo projects showcasing Angular, React, Vue, and Blazor with ASP.NET Core 8 Web API, serving as a reference for modern web app architectures.";
 
                     /// <summary>
-                    /// Custom jSilvestri.com 2024 Web API Demo Constant used for product description. 
+                    /// Custom jSilvestri.com 2024 Web API Demo Constants class used to handle all jSilvestri.com 2024
+                    /// Web API Demo Product default descriptions, across all projects included in the jSilvestri 2024 Web API Demo 
+                    /// Collection projects.
                     /// </summary>
-                    public const string JsxClassLibrary = "The JSX Class Library Project Contains reusable .NET class libraries providing common functionalities for various web applications, promoting code reuse and maintainability.";
+                    public static class Default
+                    {
+                        /// <summary>
+                        /// Custom jSilvestri.com 2024 Web API Demo Constant used for product description. 
+                        /// </summary>
+                        public const string JsxMainProject = "The jSilvestri.com 2024 Web API Demo Collection is a comprehensive suite of demonstration projects designed to showcase the integration and usage of various front-end frameworks (Angular, React, Vue, Blazor) with ASP.NET Core 8 Web API. This collection serves as a learning resource and reference for developers looking to understand and implement modern web application architectures using these technologies.";
+
+                        /// <summary>
+                        /// Custom jSilvestri.com 2024 Web API Demo Constant used for product description. 
+                        /// </summary>
+                        public const string JsxClassLibrary = "The jSX Class Library Project is a project containing reusable .NET class libraries that provide common functionalities and utilities used across different web applications within the jSilvestri.com BETA v 2024 Web API Demo Collection. This project aims to promote code reuse and maintainability by centralizing shared logic in a single location.";
+
+                        /// <summary>
+                        /// Custom jSilvestri.com 2024 Web API Demo Constant used for product description. 
+                        /// </summary>
+                        public const string JsxWebApiProject = "The jSX Web API Project is a custom project that implements an ASP.NET Core 8 Web API, serving as the back-end for the various web applications in the jSilvestri.com BETA v 2024 Web API Demo Collection. It provides RESTful API endpoints for data retrieval and manipulation, showcasing best practices in API development and integration with front-end frameworks.";
+
+                        /// <summary>
+                        /// Custom jSilvestri.com 2024 Web API Demo Constant used for product description. 
+                        /// </summary>
+                        public const string JsxSharedResources = "The jSX Shared Resources Project is a project that contains shared resources such as images, styles, and scripts used across multiple web applications in the jSilvestri.com BETA v 2024 Web API Demo Collection. This project aims to maintain consistency and avoid duplication of resources across different projects.";
+
+                        /// <summary>
+                        /// Custom jSilvestri.com 2024 Web API Demo Constant used for product description. 
+                        /// </summary>
+                        public const string JsxAngularJsProject = "The jSX Angular Core Web API Demo Project is a demonstration project showcasing how to build a web application using Angular and ASP.NET Core 8 Web API. It highlights the integration of Angular for the client-side with ASP.NET Core for the server-side, providing a comprehensive example of a modern web application stack.";
+
+                        /// <summary>
+                        /// Custom jSilvestri.com 2024 Web API Demo Constant used for product description. 
+                        /// </summary>
+                        public const string JsxBlazorProject = "The jSX Blazor Server Core Web API Demo Project is a demonstration project that illustrates how to construct a web application using Blazor Server and ASP.NET Core 8 Web API. This project highlights the use of Blazor for building interactive web UIs with C# and ASP.NET Core for providing powerful server-side capabilities.";
+
+                        /// <summary>
+                        /// Custom jSilvestri.com 2024 Web API Demo Constant used for product description. 
+                        /// </summary>
+                        public const string JsxReactJsProject = "The jSX React Core Web API Demo Project is a demonstration project designed to illustrate how to create a web application using React and ASP.NET Core 8 Web API. This project exemplifies the combination of React for building dynamic user interfaces with ASP.NET Core for developing robust server-side APIs.";
+
+                        /// <summary>
+                        /// Custom jSilvestri.com 2024 Web API Demo Constant used for product description. 
+                        /// </summary>
+                        public const string JsxVueProject= "The jSX Vue Core Web API Demo Project is a demonstration project intended to demonstrate how to develop a web application using Vue and ASP.NET Core 8 Web API. It showcases the seamless integration of Vue for the front-end and ASP.NET Core for the back-end, offering a clear example of a full-stack web development approach.";
+
+                        /// <summary>
+                        /// Custom jSilvestri.com 2024 Web API Demo Constant used for product description. 
+                        /// </summary>
+                        public const string JsxMAUIProject = "The jSX .NET MAUI Core Demo Project is one coming soon that you do not want to miss. Stay tuned!";
+
+                    }
 
                     /// <summary>
-                    /// Custom jSilvestri.com 2024 Web API Demo Constant used for product description. 
+                    /// Custom jSilvestri.com 2024 Web API Demo Constants class used to handle all jSilvestri.com 2024
+                    /// Web API Demo Product Short descriptions, across all projects included in the jSilvestri 2024 Web API Demo 
+                    /// Collection projects.
                     /// </summary>
-                    public const string JsxWebApiProject = "The JSX Web API Project Implements an ASP.NET Core 8 Web API as the back-end for various web apps, providing RESTful endpoints and demonstrating API best practices.";
+                    public static class Short
+                    {
+                        /// <summary>
+                        /// Custom jSilvestri.com 2024 Web API Demo Constant used for product description. 
+                        /// </summary>
+                        public const string JsxMainProject = "The jSilvestri.com 2024 Web API Demo Collection is a suite of demo projects showcasing Angular, React, Vue, and Blazor with ASP.NET Core 8 Web API, serving as a reference for modern web app architectures.";
 
-                    /// <summary>
-                    /// Custom jSilvestri.com 2024 Web API Demo Constant used for product description. 
-                    /// </summary>
-                    public const string JsxSharedResources = "The JSX Shared Resources Project is a project that contains shared resources such as images, styles, and scripts used across multiple web applications in the jSilvestri.com BETA v 2024 Web API Demo Collection.";
+                        /// <summary>
+                        /// Custom jSilvestri.com 2024 Web API Demo Constant used for product description. 
+                        /// </summary>
+                        public const string JsxClassLibrary = "The jSX Class Library Project Contains reusable .NET class libraries providing common functionalities for various web applications, promoting code reuse and maintainability.";
 
-                    /// <summary>
-                    /// Custom jSilvestri.com 2024 Web API Demo Constant used for product description. 
-                    /// </summary>
-                    public const string JsxAngularJsProject = "The JSX Angular Core Web API Demo Project demonstrates building a web app using Angular with ASP.NET Core 8 Web API, showcasing a modern web stack.";
+                        /// <summary>
+                        /// Custom jSilvestri.com 2024 Web API Demo Constant used for product description. 
+                        /// </summary>
+                        public const string JsxWebApiProject = "The jSX Web API Project Implements an ASP.NET Core 8 Web API as the back-end for various web apps, providing RESTful endpoints and demonstrating API best practices.";
 
-                    /// <summary>
-                    /// Custom jSilvestri.com 2024 Web API Demo Constant used for product description. 
-                    /// </summary>
-                    public const string JsxBlazorProject = "The JSX Blazor Server Core Web API Demo Project demonstrates building a web app with Blazor Server and ASP.NET Core 8 Web API, featuring interactive UIs with server-side power.";
+                        /// <summary>
+                        /// Custom jSilvestri.com 2024 Web API Demo Constant used for product description. 
+                        /// </summary>
+                        public const string JsxSharedResources = "The jSX Shared Resources Project is a project that contains shared resources such as images, styles, and scripts used across multiple web applications in the jSilvestri.com BETA v 2024 Web API Demo Collection.";
 
-                    /// <summary>
-                    /// Custom jSilvestri.com 2024 Web API Demo Constant used for product description. 
-                    /// </summary>
-                    public const string JsxReactJsProject = "The JSX React Core Web API Demo Project  illustrates creating a web app with React and ASP.NET Core 8 Web API, combining dynamic UIs with robust APIs.";
+                        /// <summary>
+                        /// Custom jSilvestri.com 2024 Web API Demo Constant used for product description. 
+                        /// </summary>
+                        public const string JsxAngularJsProject = "The jSX Angular Core Web API Demo Project demonstrates building a web app using Angular with ASP.NET Core 8 Web API, showcasing a modern web stack.";
 
-                    /// <summary>
-                    /// Custom jSilvestri.com 2024 Web API Demo Constant used for product description. 
-                    /// </summary>
-                    public const string JsxVueProject = "The JSX Vue Core Web API Demo Project shows developing a web app using Vue with ASP.NET Core 8 Web API, highlighting a full-stack development approach.";
+                        /// <summary>
+                        /// Custom jSilvestri.com 2024 Web API Demo Constant used for product description. 
+                        /// </summary>
+                        public const string JsxBlazorProject = "The jSX Blazor Server Core Web API Demo Project demonstrates building a web app with Blazor Server and ASP.NET Core 8 Web API, featuring interactive UIs with server-side power.";
 
-                    /// <summary>
-                    /// Custom jSilvestri.com 2024 Web API Demo Constant used for product description. 
-                    /// </summary>
-                    public const string JsxMAUIProject = "The JSX .NET MAUI Core Demo Project is one coming soon that you do not want to miss. Stay tuned!";
+                        /// <summary>
+                        /// Custom jSilvestri.com 2024 Web API Demo Constant used for product description. 
+                        /// </summary>
+                        public const string JsxReactJsProject = "The jSX React Core Web API Demo Project  illustrates creating a web app with React and ASP.NET Core 8 Web API, combining dynamic UIs with robust APIs.";
 
+                        /// <summary>
+                        /// Custom jSilvestri.com 2024 Web API Demo Constant used for product description. 
+                        /// </summary>
+                        public const string JsxVueProject = "The jSX Vue Core Web API Demo Project shows developing a web app using Vue with ASP.NET Core 8 Web API, highlighting a full-stack development approach.";
+
+                        /// <summary>
+                        /// Custom jSilvestri.com 2024 Web API Demo Constant used for product description. 
+                        /// </summary>
+                        public const string JsxMAUIProject = "The jSX .NET MAUI Core Demo Project is one coming soon that you do not want to miss. Stay tuned!";
+
+                    }
                 }
-            }
-
-            /// <summary>
-            /// Custom jSilvestri.com 2024 Web API Demo Constants class used to handle Product GitHub SEO friendly URLs &amp;
-            /// .git URLs.
-            /// </summary>
-            public static class GitHubUrls
-            {
 
                 /// <summary>
-                /// Custom jSilvestri.com 2024 Web API Demo Constants class used to handle Product GitHub SEO friendly URLs (i.e., https://github.com/JasonSilvestri/JsxClassLibrary).
+                /// Custom jSilvestri.com 2024 Web API Demo Constants class used to handle Product GitHub SEO friendly URLs &amp;
+                /// .git URLs.
                 /// </summary>
-                public static class SeoFriendlyUrls
+                public static class GitHubUrls
                 {
-                    public const string JsxMainProjectName = "https://github.com/JasonSilvestri/jSilvestri2024WebApiDemoCollection";
 
-                    public const string JsxAngularJsProject = "https://github.com/JasonSilvestri/JsxAngularCoreWebApiDemo";
+                    /// <summary>
+                    /// Custom jSilvestri.com 2024 Web API Demo Constants class used to handle Product GitHub SEO friendly URLs (i.e., https://github.com/JasonSilvestri/JsxClassLibrary).
+                    /// </summary>
+                    public static class SeoFriendlyUrls
+                    {
+                        public const string JsxMainProjectName = "https://github.com/JasonSilvestri/jSilvestri2024WebApiDemoCollection";
 
-                    public const string JsxBlazorProject = "https://github.com/JasonSilvestri/JsxBlazorServerCoreWebApiDemo";
+                        public const string JsxAngularJsProject = "https://github.com/JasonSilvestri/JsxAngularCoreWebApiDemo";
 
-                    public const string JsxReactJsProject = "https://github.com/JasonSilvestri/JsxReactCoreWebApiDemo";
+                        public const string JsxBlazorProject = "https://github.com/JasonSilvestri/JsxBlazorServerCoreWebApiDemo";
 
-                    public const string JsxVueProject = "https://github.com/JasonSilvestri/JsxVueCoreWebApiDemo";
+                        public const string JsxReactJsProject = "https://github.com/JasonSilvestri/JsxReactCoreWebApiDemo";
 
-                    public const string JsxMAUIProject = "https://github.com/JasonSilvestri/JsxBlazorMauiCoreDemo";
+                        public const string JsxVueProject = "https://github.com/JasonSilvestri/JsxVueCoreWebApiDemo";
 
-                    public const string JsxClassLibraryProject = "https://github.com/JasonSilvestri/JsxClassLibrary";
+                        public const string JsxMAUIProject = "https://github.com/JasonSilvestri/JsxBlazorMauiCoreDemo";
 
-                    public const string JsxWebApiProject = "https://github.com/JasonSilvestri/JsxWebApi";
+                        public const string JsxClassLibraryProject = "https://github.com/JasonSilvestri/JsxClassLibrary";
 
-                    public const string JsxSharedResourcesProject = "https://github.com/JasonSilvestri/JsxSharedResources";
+                        public const string JsxWebApiProject = "https://github.com/JasonSilvestri/JsxWebApi";
+
+                        public const string JsxSharedResourcesProject = "https://github.com/JasonSilvestri/JsxSharedResources";
+                    }
+
+
+                    /// <summary>
+                    /// Custom jSilvestri.com 2024 Web API Demo Constants class used to handle Product GitHub SEO friendly URLs (i.e., https://github.com/JasonSilvestri/JsxClassLibrary.git).
+                    /// </summary>
+                    public static class DotGitUrls
+                    {
+                        public const string JsxMainProjectName = "https://github.com/JasonSilvestri/jSilvestri2024WebApiDemoCollection.git";
+
+                        public const string JsxAngularJsProject = "https://github.com/JasonSilvestri/JsxAngularCoreWebApiDemo.git";
+
+                        public const string JsxBlazorProject = "https://github.com/JasonSilvestri/JsxBlazorServerCoreWebApiDemo.git";
+
+                        public const string JsxReactJsProject = "https://github.com/JasonSilvestri/JsxReactCoreWebApiDemo.git";
+
+                        public const string JsxVueProject = "https://github.com/JasonSilvestri/JsxVueCoreWebApiDemo.git";
+
+                        public const string JsxMAUIProject = "https://github.com/JasonSilvestri/JsxBlazorMauiCoreDemo.git";
+
+                        public const string JsxClassLibraryProject = "https://github.com/JasonSilvestri/JsxClassLibrary.git";
+
+                        public const string JsxWebApiProject = "https://github.com/JasonSilvestri/JsxWebApi.git";
+
+                        public const string JsxSharedResourcesProject = "https://github.com/JasonSilvestri/JsxSharedResources.git";
+                    }
+
                 }
-
-
-                /// <summary>
-                /// Custom jSilvestri.com 2024 Web API Demo Constants class used to handle Product GitHub SEO friendly URLs (i.e., https://github.com/JasonSilvestri/JsxClassLibrary.git).
-                /// </summary>
-                public static class DotGitUrls
-                {
-                    public const string JsxMainProjectName = "https://github.com/JasonSilvestri/jSilvestri2024WebApiDemoCollection.git";
-
-                    public const string JsxAngularJsProject = "https://github.com/JasonSilvestri/JsxAngularCoreWebApiDemo.git";
-
-                    public const string JsxBlazorProject = "https://github.com/JasonSilvestri/JsxBlazorServerCoreWebApiDemo.git";
-
-                    public const string JsxReactJsProject = "https://github.com/JasonSilvestri/JsxReactCoreWebApiDemo.git";
-
-                    public const string JsxVueProject = "https://github.com/JasonSilvestri/JsxVueCoreWebApiDemo.git";
-
-                    public const string JsxMAUIProject = "https://github.com/JasonSilvestri/JsxBlazorMauiCoreDemo.git";
-
-                    public const string JsxClassLibraryProject = "https://github.com/JasonSilvestri/JsxClassLibrary.git";
-
-                    public const string JsxWebApiProject = "https://github.com/JasonSilvestri/JsxWebApi.git";
-
-                    public const string JsxSharedResourcesProject = "https://github.com/JasonSilvestri/JsxSharedResources.git";
-                }
-
-            }
 
         }
-
 
         /// <summary>
         /// Custom jSilvestri.com 2024 Web API Demo Constants class for handling all product information across 
@@ -341,7 +379,7 @@
         /// declarations, and more secure practices as we progress through the phases.
         /// </para>
         /// </summary>
-        public static class JsxWebApiDemoSettings
+        public static class JsxAppDemoSettings
         {
 
             public const string JwtIssuer = "YourIssuer";
@@ -1084,6 +1122,1298 @@
                     /// </summary>
                     public const string portNone = "";
 
+                }
+
+            }
+
+        }
+
+        /// <summary>
+        /// Custom jSilvestri.com Constants class used to handle all common
+        /// string-based app Cards (i.e., your contact card on app, 
+        /// Swagger card, license cards, etc).
+        /// </summary>
+        public static class AppCards
+        {
+            /// <summary>
+            /// Custom jSilvestri.com Constants class used to handle most common
+            /// string-based properties of your contact card.
+            /// </summary>
+            public static class YourContactCards
+            {
+
+                /// <summary>
+                /// Custom jSilvestri.com Constants Property that holds just your 
+                /// string-based First Name.
+                /// </summary>
+                public const string FirstName = "Jason";
+
+                /// <summary>
+                /// Custom jSilvestri.com Constants Property that holds just your 
+                /// string-based Last Name.
+                /// </summary>
+                public const string LastName = "Silvestri";
+
+                /// <summary>
+                /// Custom jSilvestri.com Constants Property that holds just your 
+                /// string-based Full Name.
+                /// </summary>
+                public const string FullName = FirstName + " " + LastName;
+
+                /// <summary>
+                /// Custom jSilvestri.com Constants Property that holds just your 
+                /// string-based Email.
+                /// </summary>
+                public const string Email = "therealjasonsilvestri@gmail.com";
+
+                /// <summary>
+                /// Custom jSilvestri.com Constants Property that holds just your 
+                /// string-based primary URL (i.e., your blog, company website, etc.).
+                /// </summary>
+                public const string PrimaryUrl = "https://jsilvestri.com";
+
+            }
+
+            /// <summary>
+            /// Custom jSilvestri.com Constants class used to handle basic App license
+            /// cards.
+            /// </summary>
+            public static class AppLicenseCards
+            {
+                /// <summary>
+                /// Custom jSilvestri.com Constants class used to handle basic MIT App license
+                /// card.
+                /// </summary>
+                public static class Mit
+                {
+
+                    /// <summary>
+                    /// Custom jSilvestri.com Constants Property that holds 
+                    /// string-based default Name Text for the MIT card.
+                    /// </summary>
+                    public const string Name = "MIT";
+
+                    /// <summary>
+                    /// Custom jSilvestri.com Constants Property that holds 
+                    /// string-based default URL for the MIT card.
+                    /// </summary>
+                    public const string Url = "https://opensource.org/licenses/MIT";
+
+                }
+
+                /// <summary>
+                /// Custom jSilvestri.com Constants class used to handle basic App Terms license
+                /// card.
+                /// </summary>
+                public static class AppTermsOfServices
+                {
+
+                    /// <summary>
+                    /// Custom jSilvestri.com Constants Property that holds 
+                    /// string-based default Name Text for the App card.
+                    /// </summary>
+                    public const string Name = "Terms of Service";
+
+                    /// <summary>
+                    /// Custom jSilvestri.com Constants Property that holds 
+                    /// string-based default URL for the MIT card.
+                    /// </summary>
+                    public const string Url = "https://opensource.org/licenses/MIT";
+
+                }
+
+            }
+
+            /// <summary>
+            /// Custom jSilvestri.com Constants class used to handle basic App Swagger 
+            /// cards that allow us a temp, static way, to configure Swagger for each 
+            /// application with a working WebAPI which is then used to dynamically
+            /// render CRUD services and operartions.
+            /// </summary>
+            public static class AppSwaggerCards
+            {
+
+                /// <summary>
+                /// Custom jSilvestri.com Constants Property that holds 
+                /// string-based default Name Text for the App card.
+                /// </summary>
+                public const string SwagVersion = "v1";
+
+                /// <summary>
+                /// Custom jSilvestri.com Constants Property that holds 
+                /// string-based default Swagger JSON Endpoint.
+                /// </summary>
+                public const string SwagEndPointUri = "/swagger/v1/swagger.json";
+
+                /// <summary>
+                /// Custom jSilvestri.com Constants Property that holds 
+                /// the true/false flag, indicating whether Swagger should be
+                /// serializable using the legacy 2.0 standard for backwards 
+                /// compatability or go for the new 3.0 standard.
+                /// </summary>
+                public const bool IsSwagSerializeAsV2 = false;
+
+
+                /// <summary>
+                /// Custom jSilvestri.com 2024 Web API Demo Class Constant used for Swagger product card configuration. 
+                /// </summary>
+                public static class JsxAppsCollections
+                {
+
+                    /// <summary>
+                    /// Custom jSilvestri.com 2024 Web API Demo Class Constant used for Swagger product card configuration. 
+                    /// </summary>
+                    public static class Contact
+                    {
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default contact card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string Name = YourContactCards.FullName;
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default contact card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string Email = YourContactCards.Email;
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default contact card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string PrimaryUrl = YourContactCards.PrimaryUrl;
+
+                    }
+
+                    /// <summary>
+                    /// Custom jSilvestri.com 2024 Web API Demo Class Constant used for Swagger product card configuration. 
+                    /// </summary>
+                    public static class License
+                    {
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants class used to handle basic MIT App license
+                        /// card.
+                        /// </summary>
+                        public static class Mit
+                        {
+
+                            /// <summary>
+                            /// Custom jSilvestri.com Constants Property that holds 
+                            /// string-based default Name Text for the MIT card.
+                            /// </summary>
+                            public const string Name = AppLicenseCards.Mit.Name;
+
+                            /// <summary>
+                            /// Custom jSilvestri.com Constants Property that holds 
+                            /// string-based default URL for the MIT card.
+                            /// </summary>
+                            public const string Url = AppLicenseCards.Mit.Url;
+
+                        }
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants class used to handle basic App Terms license
+                        /// card.
+                        /// </summary>
+                        public static class AppTermsOfServices
+                        {
+
+                            /// <summary>
+                            /// Custom jSilvestri.com Constants Property that holds 
+                            /// string-based default Name Text for the App card.
+                            /// </summary>
+                            public const string Name = AppLicenseCards.AppTermsOfServices.Name;
+
+                            /// <summary>
+                            /// Custom jSilvestri.com Constants Property that holds 
+                            /// string-based default URL for the MIT card.
+                            /// </summary>
+                            public const string Url = AppLicenseCards.AppTermsOfServices.Url;
+
+                        }
+
+                    }
+
+
+                    /// <summary>
+                    /// Custom jSilvestri.com 2024 Web API Demo Class Constant used for Swagger product card configuration. 
+                    /// </summary>
+                    public static class SwagDoc
+                    {
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default swag card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string SwagVersion = AppSwaggerCards.SwagVersion;
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default swag card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string SwagEndPointUri = AppSwaggerCards.SwagEndPointUri;
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that holds 
+                        /// the true/false flag, indicating whether Swagger should be
+                        /// serializable using the legacy 2.0 standard for backwards 
+                        /// compatability or go for the new 3.0 standard.
+                        /// </summary>
+                        public const bool IsSwagSerializeAsV2 = AppSwaggerCards.IsSwagSerializeAsV2;
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default contact card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string JsxAppVer = JsxAppProjects.ProductVersions.JsxMainProjectName;
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default contact card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string Title = JsxAppProjects.Names.Shorts.JsxMainProjectName;
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default contact card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string Description = JsxAppProjects.Descriptions.Default.JsxMainProject;
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default contact card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string TermsOfService = JsxAppProjects.GitHubUrls.SeoFriendlyUrls.JsxMainProjectName;
+
+                    }
+
+                }
+
+                /// <summary>
+                /// Custom jSilvestri.com 2024 Web API Demo Class Constant used for Swagger product card configuration. 
+                /// </summary>
+                public static class JsxClassLibrary
+                {
+
+                    /// <summary>
+                    /// Custom jSilvestri.com 2024 Web API Demo Class Constant used for Swagger product card configuration. 
+                    /// </summary>
+                    public static class Contact
+                    {
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default contact card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string Name = YourContactCards.FullName;
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default contact card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string Email = YourContactCards.Email;
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default contact card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string PrimaryUrl = YourContactCards.PrimaryUrl;
+
+                    }
+
+                    /// <summary>
+                    /// Custom jSilvestri.com 2024 Web API Demo Class Constant used for Swagger product card configuration. 
+                    /// </summary>
+                    public static class License
+                    {
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants class used to handle basic MIT App license
+                        /// card.
+                        /// </summary>
+                        public static class Mit
+                        {
+
+                            /// <summary>
+                            /// Custom jSilvestri.com Constants Property that holds 
+                            /// string-based default Name Text for the MIT card.
+                            /// </summary>
+                            public const string Name = AppLicenseCards.Mit.Name;
+
+                            /// <summary>
+                            /// Custom jSilvestri.com Constants Property that holds 
+                            /// string-based default URL for the MIT card.
+                            /// </summary>
+                            public const string Url = AppLicenseCards.Mit.Url;
+
+                        }
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants class used to handle basic App Terms license
+                        /// card.
+                        /// </summary>
+                        public static class AppTermsOfServices
+                        {
+
+                            /// <summary>
+                            /// Custom jSilvestri.com Constants Property that holds 
+                            /// string-based default Name Text for the App card.
+                            /// </summary>
+                            public const string Name = AppLicenseCards.AppTermsOfServices.Name;
+
+                            /// <summary>
+                            /// Custom jSilvestri.com Constants Property that holds 
+                            /// string-based default URL for the MIT card.
+                            /// </summary>
+                            public const string Url = AppLicenseCards.AppTermsOfServices.Url;
+
+                        }
+
+                    }
+
+
+                    /// <summary>
+                    /// Custom jSilvestri.com 2024 Web API Demo Class Constant used for Swagger product card configuration. 
+                    /// </summary>
+                    public static class SwagDoc
+                    {
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default swag card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string SwagVersion = AppSwaggerCards.SwagVersion;
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default swag card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string SwagEndPointUri = AppSwaggerCards.SwagEndPointUri;
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that holds 
+                        /// the true/false flag, indicating whether Swagger should be
+                        /// serializable using the legacy 2.0 standard for backwards 
+                        /// compatability or go for the new 3.0 standard.
+                        /// </summary>
+                        public const bool IsSwagSerializeAsV2 = AppSwaggerCards.IsSwagSerializeAsV2;
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default contact card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string JsxAppVer = JsxAppProjects.ProductVersions.JsxClassLibraryProject;
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default contact card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string Title = JsxAppProjects.Names.Shorts.JsxClassLibraryProject;
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default contact card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string Description = JsxAppProjects.Descriptions.Default.JsxClassLibrary;
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default contact card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string TermsOfService = JsxAppProjects.GitHubUrls.SeoFriendlyUrls.JsxClassLibraryProject;
+
+                    }
+                }
+
+                /// <summary>
+                /// Custom jSilvestri.com 2024 Web API Demo Class Constant used for Swagger product card configuration. 
+                /// </summary>
+                public static class JsxWebApi
+                {
+
+
+                    /// <summary>
+                    /// Custom jSilvestri.com 2024 Web API Demo Class Constant used for Swagger product card configuration. 
+                    /// </summary>
+                    public static class Contact
+                    {
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default contact card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string Name = YourContactCards.FullName;
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default contact card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string Email = YourContactCards.Email;
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default contact card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string PrimaryUrl = YourContactCards.PrimaryUrl;
+
+                    }
+
+                    /// <summary>
+                    /// Custom jSilvestri.com 2024 Web API Demo Class Constant used for Swagger product card configuration. 
+                    /// </summary>
+                    public static class License
+                    {
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants class used to handle basic MIT App license
+                        /// card.
+                        /// </summary>
+                        public static class Mit
+                        {
+
+                            /// <summary>
+                            /// Custom jSilvestri.com Constants Property that holds 
+                            /// string-based default Name Text for the MIT card.
+                            /// </summary>
+                            public const string Name = AppLicenseCards.Mit.Name;
+
+                            /// <summary>
+                            /// Custom jSilvestri.com Constants Property that holds 
+                            /// string-based default URL for the MIT card.
+                            /// </summary>
+                            public const string Url = AppLicenseCards.Mit.Url;
+
+                        }
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants class used to handle basic App Terms license
+                        /// card.
+                        /// </summary>
+                        public static class AppTermsOfServices
+                        {
+
+                            /// <summary>
+                            /// Custom jSilvestri.com Constants Property that holds 
+                            /// string-based default Name Text for the App card.
+                            /// </summary>
+                            public const string Name = AppLicenseCards.AppTermsOfServices.Name;
+
+                            /// <summary>
+                            /// Custom jSilvestri.com Constants Property that holds 
+                            /// string-based default URL for the MIT card.
+                            /// </summary>
+                            public const string Url = AppLicenseCards.AppTermsOfServices.Url;
+
+                        }
+
+                    }
+
+
+                    /// <summary>
+                    /// Custom jSilvestri.com 2024 Web API Demo Class Constant used for Swagger product card configuration. 
+                    /// </summary>
+                    public static class SwagDoc
+                    {
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default swag card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string SwagVersion = AppSwaggerCards.SwagVersion;
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default swag card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string SwagEndPointUri = AppSwaggerCards.SwagEndPointUri;
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that holds 
+                        /// the true/false flag, indicating whether Swagger should be
+                        /// serializable using the legacy 2.0 standard for backwards 
+                        /// compatability or go for the new 3.0 standard.
+                        /// </summary>
+                        public const bool IsSwagSerializeAsV2 = AppSwaggerCards.IsSwagSerializeAsV2;
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default contact card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string JsxAppVer = JsxAppProjects.ProductVersions.JsxWebApiProject;
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default contact card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string Title = JsxAppProjects.Names.Shorts.JsxWebApiProject;
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default contact card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string Description = JsxAppProjects.Descriptions.Default.JsxWebApiProject;
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default contact card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string TermsOfService = JsxAppProjects.GitHubUrls.SeoFriendlyUrls.JsxWebApiProject;
+
+                    }
+                }
+
+                /// <summary>
+                /// Custom jSilvestri.com 2024 Web API Demo Class Constant used for Swagger product card configuration. 
+                /// </summary>
+                public static class JsxSharedResources
+                {
+                    /// <summary>
+                    /// Custom jSilvestri.com 2024 Web API Demo Class Constant used for Swagger product card configuration. 
+                    /// </summary>
+                    public static class Contact
+                    {
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default contact card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string Name = YourContactCards.FullName;
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default contact card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string Email = YourContactCards.Email;
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default contact card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string PrimaryUrl = YourContactCards.PrimaryUrl;
+
+                    }
+
+                    /// <summary>
+                    /// Custom jSilvestri.com 2024 Web API Demo Class Constant used for Swagger product card configuration. 
+                    /// </summary>
+                    public static class License
+                    {
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants class used to handle basic MIT App license
+                        /// card.
+                        /// </summary>
+                        public static class Mit
+                        {
+
+                            /// <summary>
+                            /// Custom jSilvestri.com Constants Property that holds 
+                            /// string-based default Name Text for the MIT card.
+                            /// </summary>
+                            public const string Name = AppLicenseCards.Mit.Name;
+
+                            /// <summary>
+                            /// Custom jSilvestri.com Constants Property that holds 
+                            /// string-based default URL for the MIT card.
+                            /// </summary>
+                            public const string Url = AppLicenseCards.Mit.Url;
+
+                        }
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants class used to handle basic App Terms license
+                        /// card.
+                        /// </summary>
+                        public static class AppTermsOfServices
+                        {
+
+                            /// <summary>
+                            /// Custom jSilvestri.com Constants Property that holds 
+                            /// string-based default Name Text for the App card.
+                            /// </summary>
+                            public const string Name = AppLicenseCards.AppTermsOfServices.Name;
+
+                            /// <summary>
+                            /// Custom jSilvestri.com Constants Property that holds 
+                            /// string-based default URL for the MIT card.
+                            /// </summary>
+                            public const string Url = AppLicenseCards.AppTermsOfServices.Url;
+
+                        }
+
+                    }
+
+
+                    /// <summary>
+                    /// Custom jSilvestri.com 2024 Web API Demo Class Constant used for Swagger product card configuration. 
+                    /// </summary>
+                    public static class SwagDoc
+                    {
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default swag card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string SwagVersion = AppSwaggerCards.SwagVersion;
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default swag card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string SwagEndPointUri = AppSwaggerCards.SwagEndPointUri;
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that holds 
+                        /// the true/false flag, indicating whether Swagger should be
+                        /// serializable using the legacy 2.0 standard for backwards 
+                        /// compatability or go for the new 3.0 standard.
+                        /// </summary>
+                        public const bool IsSwagSerializeAsV2 = AppSwaggerCards.IsSwagSerializeAsV2;
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default contact card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string JsxAppVer = JsxAppProjects.ProductVersions.JsxSharedResourcesProject;
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default contact card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string Title = JsxAppProjects.Names.Shorts.JsxSharedResourcesProject;
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default contact card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string Description = JsxAppProjects.Descriptions.Default.JsxSharedResources;
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default contact card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string TermsOfService = JsxAppProjects.GitHubUrls.SeoFriendlyUrls.JsxSharedResourcesProject;
+
+                    }
+                }
+
+                /// <summary>
+                /// Custom jSilvestri.com 2024 Web API Demo Class Constant used for Swagger product card configuration. 
+                /// </summary>
+                public static class JsxAngular
+                {
+
+
+                    /// <summary>
+                    /// Custom jSilvestri.com 2024 Web API Demo Class Constant used for Swagger product card configuration. 
+                    /// </summary>
+                    public static class Contact
+                    {
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default contact card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string Name = YourContactCards.FullName;
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default contact card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string Email = YourContactCards.Email;
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default contact card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string PrimaryUrl = YourContactCards.PrimaryUrl;
+
+                    }
+
+                    /// <summary>
+                    /// Custom jSilvestri.com 2024 Web API Demo Class Constant used for Swagger product card configuration. 
+                    /// </summary>
+                    public static class License
+                    {
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants class used to handle basic MIT App license
+                        /// card.
+                        /// </summary>
+                        public static class Mit
+                        {
+
+                            /// <summary>
+                            /// Custom jSilvestri.com Constants Property that holds 
+                            /// string-based default Name Text for the MIT card.
+                            /// </summary>
+                            public const string Name = AppLicenseCards.Mit.Name;
+
+                            /// <summary>
+                            /// Custom jSilvestri.com Constants Property that holds 
+                            /// string-based default URL for the MIT card.
+                            /// </summary>
+                            public const string Url = AppLicenseCards.Mit.Url;
+
+                        }
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants class used to handle basic App Terms license
+                        /// card.
+                        /// </summary>
+                        public static class AppTermsOfServices
+                        {
+
+                            /// <summary>
+                            /// Custom jSilvestri.com Constants Property that holds 
+                            /// string-based default Name Text for the App card.
+                            /// </summary>
+                            public const string Name = AppLicenseCards.AppTermsOfServices.Name;
+
+                            /// <summary>
+                            /// Custom jSilvestri.com Constants Property that holds 
+                            /// string-based default URL for the MIT card.
+                            /// </summary>
+                            public const string Url = AppLicenseCards.AppTermsOfServices.Url;
+
+                        }
+
+                    }
+
+
+                    /// <summary>
+                    /// Custom jSilvestri.com 2024 Web API Demo Class Constant used for Swagger product card configuration. 
+                    /// </summary>
+                    public static class SwagDoc
+                    {
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default swag card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string SwagVersion = AppSwaggerCards.SwagVersion;
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default swag card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string SwagEndPointUri = AppSwaggerCards.SwagEndPointUri;
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that holds 
+                        /// the true/false flag, indicating whether Swagger should be
+                        /// serializable using the legacy 2.0 standard for backwards 
+                        /// compatability or go for the new 3.0 standard.
+                        /// </summary>
+                        public const bool IsSwagSerializeAsV2 = AppSwaggerCards.IsSwagSerializeAsV2;
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default contact card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string JsxAppVer = JsxAppProjects.ProductVersions.JsxAngularJsProject;
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default contact card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string Title = JsxAppProjects.Names.Shorts.JsxAngularJsProject;
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default contact card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string Description = JsxAppProjects.Descriptions.Default.JsxAngularJsProject;
+
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default contact card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string TermsOfService = JsxAppProjects.GitHubUrls.SeoFriendlyUrls.JsxAngularJsProject;
+
+                    }
+
+                }
+
+                /// <summary>
+                /// Custom jSilvestri.com 2024 Web API Demo Class Constant used for Swagger product card configuration. 
+                /// </summary>
+                public static class JsxBlazor
+                {
+
+
+                    /// <summary>
+                    /// Custom jSilvestri.com 2024 Web API Demo Class Constant used for Swagger product card configuration. 
+                    /// </summary>
+                    public static class Contact
+                    {
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default contact card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string Name = YourContactCards.FullName;
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default contact card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string Email = YourContactCards.Email;
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default contact card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string PrimaryUrl = YourContactCards.PrimaryUrl;
+
+                    }
+
+                    /// <summary>
+                    /// Custom jSilvestri.com 2024 Web API Demo Class Constant used for Swagger product card configuration. 
+                    /// </summary>
+                    public static class License
+                    {
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants class used to handle basic MIT App license
+                        /// card.
+                        /// </summary>
+                        public static class Mit
+                        {
+
+                            /// <summary>
+                            /// Custom jSilvestri.com Constants Property that holds 
+                            /// string-based default Name Text for the MIT card.
+                            /// </summary>
+                            public const string Name = AppLicenseCards.Mit.Name;
+
+                            /// <summary>
+                            /// Custom jSilvestri.com Constants Property that holds 
+                            /// string-based default URL for the MIT card.
+                            /// </summary>
+                            public const string Url = AppLicenseCards.Mit.Url;
+
+                        }
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants class used to handle basic App Terms license
+                        /// card.
+                        /// </summary>
+                        public static class AppTermsOfServices
+                        {
+
+                            /// <summary>
+                            /// Custom jSilvestri.com Constants Property that holds 
+                            /// string-based default Name Text for the App card.
+                            /// </summary>
+                            public const string Name = AppLicenseCards.AppTermsOfServices.Name;
+
+                            /// <summary>
+                            /// Custom jSilvestri.com Constants Property that holds 
+                            /// string-based default URL for the MIT card.
+                            /// </summary>
+                            public const string Url = AppLicenseCards.AppTermsOfServices.Url;
+
+                        }
+
+                    }
+
+
+                    /// <summary>
+                    /// Custom jSilvestri.com 2024 Web API Demo Class Constant used for Swagger product card configuration. 
+                    /// </summary>
+                    public static class SwagDoc
+                    {
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default swag card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string SwagVersion = AppSwaggerCards.SwagVersion;
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default swag card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string SwagEndPointUri = AppSwaggerCards.SwagEndPointUri;
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that holds 
+                        /// the true/false flag, indicating whether Swagger should be
+                        /// serializable using the legacy 2.0 standard for backwards 
+                        /// compatability or go for the new 3.0 standard.
+                        /// </summary>
+                        public const bool IsSwagSerializeAsV2 = AppSwaggerCards.IsSwagSerializeAsV2;
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default contact card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string JsxAppVer = JsxAppProjects.ProductVersions.JsxBlazorProject;
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default contact card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string Title = JsxAppProjects.Names.Shorts.JsxBlazorProject;
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default contact card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string Description = JsxAppProjects.Descriptions.Default.JsxBlazorProject;
+
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default contact card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string TermsOfService = JsxAppProjects.GitHubUrls.SeoFriendlyUrls.JsxBlazorProject;
+
+                    }
+                }
+
+                /// <summary>
+                /// Custom jSilvestri.com 2024 Web API Demo Class Constant used for Swagger product card configuration. 
+                /// </summary>
+                public static class JsxReact
+                {
+
+
+                    /// <summary>
+                    /// Custom jSilvestri.com 2024 Web API Demo Class Constant used for Swagger product card configuration. 
+                    /// </summary>
+                    public static class Contact
+                    {
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default contact card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string Name = YourContactCards.FullName;
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default contact card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string Email = YourContactCards.Email;
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default contact card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string PrimaryUrl = YourContactCards.PrimaryUrl;
+
+                    }
+
+                    /// <summary>
+                    /// Custom jSilvestri.com 2024 Web API Demo Class Constant used for Swagger product card configuration. 
+                    /// </summary>
+                    public static class License
+                    {
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants class used to handle basic MIT App license
+                        /// card.
+                        /// </summary>
+                        public static class Mit
+                        {
+
+                            /// <summary>
+                            /// Custom jSilvestri.com Constants Property that holds 
+                            /// string-based default Name Text for the MIT card.
+                            /// </summary>
+                            public const string Name = AppLicenseCards.Mit.Name;
+
+                            /// <summary>
+                            /// Custom jSilvestri.com Constants Property that holds 
+                            /// string-based default URL for the MIT card.
+                            /// </summary>
+                            public const string Url = AppLicenseCards.Mit.Url;
+
+                        }
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants class used to handle basic App Terms license
+                        /// card.
+                        /// </summary>
+                        public static class AppTermsOfServices
+                        {
+
+                            /// <summary>
+                            /// Custom jSilvestri.com Constants Property that holds 
+                            /// string-based default Name Text for the App card.
+                            /// </summary>
+                            public const string Name = AppLicenseCards.AppTermsOfServices.Name;
+
+                            /// <summary>
+                            /// Custom jSilvestri.com Constants Property that holds 
+                            /// string-based default URL for the MIT card.
+                            /// </summary>
+                            public const string Url = AppLicenseCards.AppTermsOfServices.Url;
+
+                        }
+
+                    }
+
+
+                    /// <summary>
+                    /// Custom jSilvestri.com 2024 Web API Demo Class Constant used for Swagger product card configuration. 
+                    /// </summary>
+                    public static class SwagDoc
+                    {
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default swag card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string SwagVersion = AppSwaggerCards.SwagVersion;
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default swag card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string SwagEndPointUri = AppSwaggerCards.SwagEndPointUri;
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that holds 
+                        /// the true/false flag, indicating whether Swagger should be
+                        /// serializable using the legacy 2.0 standard for backwards 
+                        /// compatability or go for the new 3.0 standard.
+                        /// </summary>
+                        public const bool IsSwagSerializeAsV2 = AppSwaggerCards.IsSwagSerializeAsV2;
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default contact card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string JsxAppVer = JsxAppProjects.ProductVersions.JsxReactJsProject;
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default contact card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string Title = JsxAppProjects.Names.Shorts.JsxReactJsProject;
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default contact card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string Description = JsxAppProjects.Descriptions.Default.JsxReactJsProject;
+
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default contact card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string TermsOfService = JsxAppProjects.GitHubUrls.SeoFriendlyUrls.JsxReactJsProject;
+
+                    }
+                }
+
+                /// <summary>
+                /// Custom jSilvestri.com 2024 Web API Demo Class Constant used for Swagger product card configuration. 
+                /// </summary>
+                public static class JsxVue
+                {
+
+
+                    /// <summary>
+                    /// Custom jSilvestri.com 2024 Web API Demo Class Constant used for Swagger product card configuration. 
+                    /// </summary>
+                    public static class Contact
+                    {
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default contact card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string Name = YourContactCards.FullName;
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default contact card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string Email = YourContactCards.Email;
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default contact card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string PrimaryUrl = YourContactCards.PrimaryUrl;
+
+                    }
+
+                    /// <summary>
+                    /// Custom jSilvestri.com 2024 Web API Demo Class Constant used for Swagger product card configuration. 
+                    /// </summary>
+                    public static class License
+                    {
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants class used to handle basic MIT App license
+                        /// card.
+                        /// </summary>
+                        public static class Mit
+                        {
+
+                            /// <summary>
+                            /// Custom jSilvestri.com Constants Property that holds 
+                            /// string-based default Name Text for the MIT card.
+                            /// </summary>
+                            public const string Name = AppLicenseCards.Mit.Name;
+
+                            /// <summary>
+                            /// Custom jSilvestri.com Constants Property that holds 
+                            /// string-based default URL for the MIT card.
+                            /// </summary>
+                            public const string Url = AppLicenseCards.Mit.Url;
+
+                        }
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants class used to handle basic App Terms license
+                        /// card.
+                        /// </summary>
+                        public static class AppTermsOfServices
+                        {
+
+                            /// <summary>
+                            /// Custom jSilvestri.com Constants Property that holds 
+                            /// string-based default Name Text for the App card.
+                            /// </summary>
+                            public const string Name = AppLicenseCards.AppTermsOfServices.Name;
+
+                            /// <summary>
+                            /// Custom jSilvestri.com Constants Property that holds 
+                            /// string-based default URL for the MIT card.
+                            /// </summary>
+                            public const string Url = AppLicenseCards.AppTermsOfServices.Url;
+
+                        }
+
+                    }
+
+
+                    /// <summary>
+                    /// Custom jSilvestri.com 2024 Web API Demo Class Constant used for Swagger product card configuration. 
+                    /// </summary>
+                    public static class SwagDoc
+                    {
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default swag card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string SwagVersion = AppSwaggerCards.SwagVersion;
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default swag card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string SwagEndPointUri = AppSwaggerCards.SwagEndPointUri;
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that holds 
+                        /// the true/false flag, indicating whether Swagger should be
+                        /// serializable using the legacy 2.0 standard for backwards 
+                        /// compatability or go for the new 3.0 standard.
+                        /// </summary>
+                        public const bool IsSwagSerializeAsV2 = AppSwaggerCards.IsSwagSerializeAsV2;
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default contact card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string JsxAppVer = JsxAppProjects.ProductVersions.JsxAngularJsProject;
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default contact card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string Title = JsxAppProjects.Names.Shorts.JsxAngularJsProject;
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default contact card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string Description = JsxAppProjects.Descriptions.Default.JsxAngularJsProject;
+
+
+                        /// <summary>
+                        /// Custom jSilvestri.com Constants Property that shares a copy of
+                        /// your default contact card through the product instances we
+                        /// are currently configuring.
+                        /// </summary>
+                        public const string TermsOfService = JsxAppProjects.GitHubUrls.SeoFriendlyUrls.JsxAngularJsProject;
+
+                    }
                 }
 
             }
