@@ -153,19 +153,19 @@ namespace JsxClassLibrary
                     {
                         public const string JsxMainProjectName = "jSX 2024 Demo Collection";
 
-                        public const string JsxAngularJsProject = "jSX Angular Web API Demo";
+                        public const string JsxAngularJsProject = "jSX Angular Demo Project";
 
-                        public const string JsxBlazorProject = "jSX Blazor Web API Demo";
+                        public const string JsxBlazorProject = "jSX Blazor Demo Project";
 
-                        public const string JsxReactJsProject = "jSX React Web API Demo";
+                        public const string JsxReactJsProject = "jSX React Demo Project";
 
-                        public const string JsxVueProject = "jSX Vue Web API Demo";
+                        public const string JsxVueProject = "jSX Vue Demo Project";
 
-                        public const string JsxMAUIProject = "jSX .NET MAUI Demo";
+                        public const string JsxMAUIProject = "jSX .NET MAUI Project";
 
                         public const string JsxClassLibraryProject = "jSX Class Library";
 
-                        public const string JsxWebApiProject = "jSX WebAPI";
+                        public const string JsxWebApiProject = "jSX Web API";
 
                         public const string JsxSharedResourcesProject = "jSX Shared Resources";
                     }
